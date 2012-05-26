@@ -5,7 +5,7 @@
   
   <default remote="caf" revision="gingerbread_house"/>
   
-  <project name="andreasgal/gaia" path="gaia" remote="github" revision="64186a74555a8c96cf9c899a3f618ed9d9ce10f7"/>
+  <project name="mozilla-b2g/gaia" path="gaia" remote="github" revision="64186a74555a8c96cf9c899a3f618ed9d9ce10f7"/>
   <project name="cgjones/mozilla-central" path="gecko" remote="github" revision="f9b2165a3fcb1811180b287f3dfe2ddb2d4ea8b2"/>
   <project name="device/common" revision="56d20e5af4ee40a57e8cc31ce9a4a402b001254a"/>
   <project name="device/htc/common" revision="867f8b454d754ff496b66527407753c451f54277"/>
