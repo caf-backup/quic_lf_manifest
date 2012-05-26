@@ -5,7 +5,7 @@
   
   <default remote="caf" revision="ics"/>
   
-  <project name="andreasgal/gaia" path="gaia" remote="github" revision="64186a74555a8c96cf9c899a3f618ed9d9ce10f7"/>
+  <project name="mozilla-b2g/gaia" path="gaia" remote="github" revision="64186a74555a8c96cf9c899a3f618ed9d9ce10f7"/>
   <project name="cgjones/mozilla-central" path="gecko" remote="github" revision="f9b2165a3fcb1811180b287f3dfe2ddb2d4ea8b2"/>
   <project name="device/common" revision="0dcc1e03659db33b77392529466f9eb685cdd3c7"/>
   <project name="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c"/>
