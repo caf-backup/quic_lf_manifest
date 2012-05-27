@@ -6,7 +6,6 @@
   <default remote="caf" revision="gingerbread_house"/>
   
   <project name="mozilla-b2g/gaia" path="gaia" remote="github" revision="64186a74555a8c96cf9c899a3f618ed9d9ce10f7"/>
-  <project name="cgjones/mozilla-central" path="gecko" remote="github" revision="f9b2165a3fcb1811180b287f3dfe2ddb2d4ea8b2"/>
   <project name="device/common" revision="56d20e5af4ee40a57e8cc31ce9a4a402b001254a"/>
   <project name="device/htc/common" revision="867f8b454d754ff496b66527407753c451f54277"/>
   <project name="device/htc/passion" revision="0508756692f6936f948b8075d1ea97220d70f1ef"/>
@@ -18,6 +17,7 @@
   <project name="kernel/msm" path="kernel" revision="1ad6a901db3038e67a58b98ac60cf048deb7d7aa"/>
   <project name="mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" remote="github" revision="2d1099aab02811883ab65ac75140522742a6a243"/>
   <project name="mozilla-b2g/gonk-misc" path="gonk-misc" remote="github" revision="adc0517331d2358450ee6652946fb28ac09547ea"/>
+  <project name="mozilla-b2g/mozilla-central" path="gecko" remote="github" revision="7a1300ec64fdc7269a7afe61f2f40002349733d9"/>
   <project name="mozilla-b2g/rilproxy" path="rilproxy" remote="github" revision="32106d4ea635ebe17a1610b643b398db639b8b97"/>
   <project name="platform/bionic" path="bionic" revision="fbad40a41bfe713188efeaa98f2952af637789a4"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a"/>

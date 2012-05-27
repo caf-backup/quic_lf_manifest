@@ -7,7 +7,7 @@
   <project remote="github" name="mozilla-b2g/gonk-misc" path="gonk-misc" revision="refs/heads/master"/>
   <project remote="github" name="mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" revision="refs/heads/master"/>
   <project remote="github" name="mozilla-b2g/gaia" path="gaia" revision="refs/heads/master"/>
-  <project remote="github" name="cgjones/mozilla-central" path="gecko" revision="refs/heads/master"/>
+  <project remote="github" name="mozilla-b2g/mozilla-central" path="gecko" revision="refs/heads/master"/>
   <project name="quic/b2g/build" path="device/qcom/b2g_common" revision="refs/heads/master"/>
 
   <project name="device/common"/>
