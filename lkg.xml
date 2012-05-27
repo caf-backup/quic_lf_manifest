@@ -6,7 +6,6 @@
   <default remote="caf" revision="ics"/>
   
   <project name="mozilla-b2g/gaia" path="gaia" remote="github" revision="64186a74555a8c96cf9c899a3f618ed9d9ce10f7"/>
-  <project name="cgjones/mozilla-central" path="gecko" remote="github" revision="f9b2165a3fcb1811180b287f3dfe2ddb2d4ea8b2"/>
   <project name="device/common" revision="0dcc1e03659db33b77392529466f9eb685cdd3c7"/>
   <project name="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c"/>
   <project name="device/google/accessory/arduino" revision="9b1ef69828775a15396b753c16a83417bb769138"/>
@@ -20,6 +19,7 @@
   <project name="kernel/msm" path="kernel" revision="c3f3b0321016480b66def830deff50cc21a67910"/>
   <project name="mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" remote="github" revision="2d1099aab02811883ab65ac75140522742a6a243"/>
   <project name="mozilla-b2g/gonk-misc" path="gonk-misc" remote="github" revision="adc0517331d2358450ee6652946fb28ac09547ea"/>
+  <project name="mozilla-b2g/mozilla-central" path="gecko" remote="github" revision="7a1300ec64fdc7269a7afe61f2f40002349733d9"/>
   <project name="mozilla-b2g/rilproxy" path="rilproxy" remote="github" revision="32106d4ea635ebe17a1610b643b398db639b8b97"/>
   <project name="platform/abi/cpp" path="abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528"/>
   <project name="platform/bionic" path="bionic" revision="570848e9f122ea9a70ecd54db4efb3c721d5591a"/>
