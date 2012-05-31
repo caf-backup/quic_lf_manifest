@@ -38,7 +38,6 @@
   <project name="platform/external/bouncycastle" path="external/bouncycastle"/>
   <project name="platform/external/bsdiff" path="external/bsdiff"/>
   <project name="platform/external/bzip2" path="external/bzip2"/>
-  <project name="platform/external/chromium" path="external/chromium"/>
   <project name="platform/external/clearsilver" path="external/clearsilver"/>
   <project name="platform/external/connectivity" path="external/connectivity"/>
   <project name="platform/external/dbus" path="external/dbus"/>
@@ -93,7 +92,6 @@
   <project name="platform/external/proguard" path="external/proguard"/>
   <project name="platform/external/protobuf" path="external/protobuf"/>
   <project name="platform/external/qemu" path="external/qemu"/>
-  <project name="platform/external/qrngd" path="external/qrngd"/>
   <project name="platform/external/quake" path="external/quake"/>
   <project name="platform/external/safe-iop" path="external/safe-iop"/>
   <project name="platform/external/skia" path="external/skia"/>
@@ -110,7 +108,6 @@
   <project name="platform/external/tremolo" path="external/tremolo"/>
   <project name="platform/external/tslib" path="external/tslib"/>
   <project name="platform/external/v8" path="external/v8"/>
-  <project name="platform/external/webkit" path="external/webkit"/>
   <project name="platform/external/wpa_supplicant" path="external/wpa_supplicant"/>
   <project name="platform/external/wpa_supplicant_6" path="external/wpa_supplicant_6"/>
   <project name="platform/external/xmlwriter" path="external/xmlwriter"/>
@@ -130,54 +127,7 @@
   <project name="platform/hardware/ti/wlan" path="hardware/ti/wlan"/>
   <project name="platform/libcore" path="libcore"/>
   <project name="platform/ndk" path="ndk"/>
-  <project name="platform/packages/apps/AccountsAndSyncSettings" path="packages/apps/AccountsAndSyncSettings"/>
-  <project name="platform/packages/apps/Bluetooth" path="packages/apps/Bluetooth"/>
-  <project name="platform/packages/apps/Browser" path="packages/apps/Browser"/>
-  <project name="platform/packages/apps/Calculator" path="packages/apps/Calculator"/>
-  <project name="platform/packages/apps/Calendar" path="packages/apps/Calendar"/>
-  <project name="platform/packages/apps/Camera" path="packages/apps/Camera"/>
-  <project name="platform/packages/apps/CertInstaller" path="packages/apps/CertInstaller"/>
-  <project name="platform/packages/apps/Contacts" path="packages/apps/Contacts"/>
-  <project name="platform/packages/apps/DeskClock" path="packages/apps/DeskClock"/>
-  <project name="platform/packages/apps/Email" path="packages/apps/Email"/>
-  <project name="platform/packages/apps/FM" path="packages/apps/FM"/>
-  <project name="platform/packages/apps/Gallery" path="packages/apps/Gallery"/>
-  <project name="platform/packages/apps/Gallery3D" path="packages/apps/Gallery3D"/>
-  <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer"/>
-  <project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2"/>
-  <project name="platform/packages/apps/Mms" path="packages/apps/Mms"/>
-  <project name="platform/packages/apps/Music" path="packages/apps/Music"/>
-  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc"/>
-  <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller"/>
-  <project name="platform/packages/apps/Phone" path="packages/apps/Phone"/>
-  <project name="platform/packages/apps/Protips" path="packages/apps/Protips"/>
-  <project name="platform/packages/apps/Provision" path="packages/apps/Provision"/>
-  <project name="platform/packages/apps/QualcommSoftAP" path="packages/apps/QualcommSoftAP"/>
-  <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox"/>
-  <project name="platform/packages/apps/Settings" path="packages/apps/Settings"/>
-  <project name="platform/packages/apps/SoundRecorder" path="packages/apps/SoundRecorder"/>
-  <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder"/>
-  <project name="platform/packages/apps/Stk" path="packages/apps/Stk"/>
-  <project name="platform/packages/apps/TSCalibration" path="packages/apps/TSCalibration"/>
-  <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
-  <project name="platform/packages/apps/VoiceDialer" path="packages/apps/VoiceDialer"/>
-  <project name="platform/packages/experimental" path="packages/experimental"/>
-  <project name="platform/packages/inputmethods/LatinIME" path="packages/inputmethods/LatinIME"/>
-  <project name="platform/packages/inputmethods/OpenWnn" path="packages/inputmethods/OpenWnn"/>
-  <project name="platform/packages/inputmethods/PinyinIME" path="packages/inputmethods/PinyinIME"/>
-  <project name="platform/packages/providers/ApplicationsProvider" path="packages/providers/ApplicationsProvider"/>
-  <project name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider"/>
-  <project name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider"/>
-  <project name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider"/>
-  <project name="platform/packages/providers/DrmProvider" path="packages/providers/DrmProvider"/>
-  <project name="platform/packages/providers/GoogleContactsProvider" path="packages/providers/GoogleContactsProvider"/>
-  <project name="platform/packages/providers/MediaProvider" path="packages/providers/MediaProvider"/>
-  <project name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider"/>
-  <project name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider"/>
-  <project name="platform/packages/wallpapers/Basic" path="packages/wallpapers/Basic"/>
   <project name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker"/>
-  <project name="platform/packages/wallpapers/MagicSmoke" path="packages/wallpapers/MagicSmoke"/>
-  <project name="platform/packages/wallpapers/MusicVisualization" path="packages/wallpapers/MusicVisualization"/>
   <project name="platform/prebuilt" path="prebuilt"/>
   <project name="platform/sdk" path="sdk"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>
@@ -195,7 +145,6 @@
   <project name="platform/vendor/qcom-opensource/omx/mm-core" path="vendor/qcom/opensource/omx/mm-core"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-video" path="vendor/qcom/opensource/omx/mm-video"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
-  <project name="platform/vendor/qcom-opensource/webkit" path="vendor/qcom/opensource/webkit"/>
   <project name="platform/vendor/qcom/android-open" path="vendor/qcom/android-open"/>
   <project name="platform/vendor/qcom/msm7627_surf" path="device/qcom/msm7627_surf"/>
   <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
