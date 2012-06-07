@@ -14,10 +14,10 @@
   <project name="device/samsung/crespo" revision="fa75812cfabce9a3508253622c698b1d2d73c37a"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="48b4634700a3576971267f1c96f87783a2712fa4"/>
   <project name="kernel/msm" path="kernel" revision="1ad6a901db3038e67a58b98ac60cf048deb7d7aa"/>
-  <project name="mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" remote="github" revision="2eb671a33dbb3008b17e3d6560f8554c3150b208"/>
-  <project name="mozilla-b2g/gaia" path="gaia" remote="github" revision="9e03677b09b1e374a22245f9c6e45ef75adb86ee"/>
-  <project name="mozilla-b2g/gonk-misc" path="gonk-misc" remote="github" revision="c7fc24a279a18eb7e3667d0f4fade33e504f0860"/>
-  <project name="mozilla-b2g/mozilla-central" path="gecko" remote="github" revision="cd045b46a7979027af3b644cdc9aa0fd5d04ee2d"/>
+  <project name="mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" remote="github" revision="17e5e1f340b0a6f214ca2483366f552b503dec45"/>
+  <project name="mozilla-b2g/gaia" path="gaia" remote="github" revision="424910f0954ca9231adc52294040fcf97281ab08"/>
+  <project name="mozilla-b2g/gonk-misc" path="gonk-misc" remote="github" revision="7d36e0fd1b2e33fdcb9cbc3803e8d64155f1925a"/>
+  <project name="mozilla-b2g/mozilla-central" path="gecko" remote="github" revision="3260a6298c9db8907e3cf87486bb8b67fa82a5e7"/>
   <project name="mozilla-b2g/rilproxy" path="rilproxy" remote="github" revision="32106d4ea635ebe17a1610b643b398db639b8b97"/>
   <project name="platform/bionic" path="bionic" revision="fbad40a41bfe713188efeaa98f2952af637789a4"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a"/>
@@ -152,5 +152,5 @@
   <project name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf" revision="7351593be506147c8a113ece1d0d0030a29296b4"/>
   <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf" revision="ff60e8f8ac495bb85f049c4ccc44904de6016276"/>
   <project name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960" revision="dc29c15136276ef0acfdf405bffb474ec8d6717a"/>
-  <project name="quic/b2g/build" path="device/qcom/b2g_common" revision="f7fcf6d2bee758f3eabcddc3585f98bed402ed3b"/>
+  <project name="quic/b2g/build" path="device/qcom/b2g_common" revision="66c5805e19f2bb333b4d8004e362b064b9a696c5"/>
 </manifest>
