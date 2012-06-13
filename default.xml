@@ -4,6 +4,7 @@
   <default remote="caf" revision="ics"/>
   <!-- B2G projects -->
   <project remote="github" name="mozilla-b2g/rilproxy" path="rilproxy" revision="refs/heads/master"/>
+  <project remote="github" name="mozilla-b2g/fake-dalvik" path="dalvik" revision="refs/heads/master"/>
   <project remote="github" name="mozilla-b2g/gonk-misc" path="gonk-misc" revision="refs/heads/master"/>
   <project remote="github" name="mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" revision="refs/heads/master"/>
   <project remote="github" name="mozilla-b2g/gaia" path="gaia" revision="refs/heads/master"/>
@@ -29,7 +30,6 @@
   <project name="platform/build" path="build">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="platform/dalvik" path="dalvik"/>
   <project name="platform/development" path="development"/>
   <project name="platform/docs/source.android.com" path="docs/source.android.com"/>
   <project name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core" revision="refs/heads/master"/>
@@ -108,7 +108,6 @@
   <project name="platform/external/llvm" path="external/llvm"/>
   <project name="platform/external/lohit-fonts" path="external/lohit-fonts"/>
   <project name="platform/external/markdown" path="external/markdown"/>
-  <project name="platform/external/mesa3d" path="external/mesa3d"/>
   <project name="platform/external/mksh" path="external/mksh"/>
   <project name="platform/external/mockwebserver" path="external/mockwebserver"/>
   <project name="platform/external/mtpd" path="external/mtpd"/>
@@ -157,10 +156,6 @@
   <project name="platform/external/yaffs2" path="external/yaffs2"/>
   <project name="platform/external/zlib" path="external/zlib"/>
   <project name="platform/frameworks/base" path="frameworks/base"/>
-  <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc"/>
-  <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader"/>
-  <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang"/>
-  <project name="platform/frameworks/ex" path="frameworks/ex"/>
   <project name="platform/frameworks/media/libvideoeditor" path="frameworks/media/libvideoeditor"/>
   <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji"/>

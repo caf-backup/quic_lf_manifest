@@ -9,31 +9,31 @@
   <project name="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c"/>
   <project name="device/google/accessory/arduino" revision="9b1ef69828775a15396b753c16a83417bb769138"/>
   <project name="device/google/accessory/demokit" revision="c35b0f59498895a58dcc3d0ab8fb03683e123ded"/>
-  <project name="device/qcom/common" revision="17c422886ba4a51efa48257bb055d1a4cd5f3fce"/>
+  <project name="device/qcom/common" revision="7cb0b8a20fdb092cada918bf501a8e99248dc75c"/>
   <project name="device/sample" revision="68b1cb978a20806176123b959cb05d4fa8adaea4"/>
   <project name="device/samsung/maguro" revision="1dfe54f5ffdc8029b8a4b579b04db3dcd1739da4"/>
   <project name="device/samsung/tuna" revision="f214929111e9b121cbce008c97046cb08f25146d"/>
   <project name="device/ti/panda" revision="1aea4038b079f1ae8bb92143b38f0f2c8b4a2620"/>
-  <project name="kernel/lk" path="bootable/bootloader/lk" revision="ab199ad80d863867bce1c7ba9a72410b858c1b03"/>
-  <project name="kernel/msm" path="kernel" revision="310109d38b7f4fd951bae7c44b413f5221b0fb01"/>
-  <project name="mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" remote="github" revision="17e5e1f340b0a6f214ca2483366f552b503dec45"/>
-  <project name="mozilla-b2g/gaia" path="gaia" remote="github" revision="424910f0954ca9231adc52294040fcf97281ab08"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="01c9182f831042a557fd94798257c42c3d8c41dc"/>
+  <project name="kernel/msm" path="kernel" revision="d5fa0c97213c2238acf55b749eecdd70f1afe5a5"/>
+  <project name="mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" remote="github" revision="74897bbddde13b4bd88b70daf144ec6c919a0b4c"/>
+  <project name="mozilla-b2g/fake-dalvik" path="dalvik" remote="github" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce"/>
+  <project name="mozilla-b2g/gaia" path="gaia" remote="github" revision="aca860fc4382b297bc99f5be49790bb7dbf723ca"/>
   <project name="mozilla-b2g/gonk-misc" path="gonk-misc" remote="github" revision="7d36e0fd1b2e33fdcb9cbc3803e8d64155f1925a"/>
-  <project name="mozilla-b2g/mozilla-central" path="gecko" remote="github" revision="3260a6298c9db8907e3cf87486bb8b67fa82a5e7"/>
+  <project name="mozilla-b2g/mozilla-central" path="gecko" remote="github" revision="82f54f2d504e8a1d56a36ef478c255bc3af6f8c9"/>
   <project name="mozilla-b2g/rilproxy" path="rilproxy" remote="github" revision="32106d4ea635ebe17a1610b643b398db639b8b97"/>
   <project name="platform/abi/cpp" path="abi/cpp" revision="6426040f1be4a844082c9769171ce7f5341a5528"/>
-  <project name="platform/bionic" path="bionic" revision="570848e9f122ea9a70ecd54db4efb3c721d5591a"/>
+  <project name="platform/bionic" path="bionic" revision="5501a13a71ae41502dfb7c8fd5662aeee3cd5da8"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy" revision="d3271024770ddcc2fb87dd22f8280764545ab05a"/>
   <project name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="411bb9df76e5b21affae73f076e5d292197b66be"/>
   <project name="platform/bootable/recovery" path="bootable/recovery" revision="2d7df9bb4ea560a387dba10d86878fc6b6703be7"/>
   <project name="platform/build" path="build" revision="e35a37a5c3e10cf4d22caf4ec4ccda1ddcf0e213">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="platform/dalvik" path="dalvik" revision="8e656ee083835202ff2f97ae06d855be3545585e"/>
   <project name="platform/development" path="development" revision="c0b9e3d0a71aed3c685090e09a6e6df65aaa7ed1"/>
   <project name="platform/docs/source.android.com" path="docs/source.android.com" revision="fdb5d9eef1a124f9da1e7417dfa6e4b35218a993"/>
-  <project name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core" revision="ca8cbc0321609f52b6b8abd3ac3c0b64f5d792f7"/>
-  <project name="platform/external/alljoyn/common" path="external/alljoyn/common" revision="3235a32e9fca3c6d080d22ad1cddf000ede2431f"/>
+  <project name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core" revision="e4126e86b05b3aadf540fae6d0f91d2698761e2d"/>
+  <project name="platform/external/alljoyn/common" path="external/alljoyn/common" revision="1609ebef56447ec0a2ec20a25c5d7e86f4128bae"/>
   <project name="platform/external/android-mock" path="external/android-mock" revision="40bb73886c61d4b2e96bab98b50c1cbfcb54d9a3"/>
   <project name="platform/external/antlr" path="external/antlr" revision="939f4a47010d361698e8f81a67e2337e180fc086"/>
   <project name="platform/external/apache-harmony" path="external/apache-harmony" revision="5b53d279675709a4beb54974c72e257c1262da2c"/>
@@ -42,7 +42,7 @@
   <project name="platform/external/astl" path="external/astl" revision="d13073fbb2bdb9a1bca751f103725a12de7ceafa"/>
   <project name="platform/external/bison" path="external/bison" revision="4af3c477523bc96a5a535500a722cd563f1d486f"/>
   <project name="platform/external/blktrace" path="external/blktrace" revision="55236cdbcee4e543d69e2c25dbf27c62301d760a"/>
-  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="9acd11acde6dcbdb31ec2e9628f3d9168f7e0ec5"/>
+  <project name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="b1a93cafe5f6a70f0d6e9c7e427f79c218995cc2"/>
   <project name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="c6b49241cc1a8950723a5f74f8f4b4f4c3fa970e"/>
   <project name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="05c760f3cca674e868cd35fefbacfb8d67745ce8"/>
   <project name="platform/external/bouncycastle" path="external/bouncycastle" revision="120c7be3b96ad42d92b9db1a75e5e5845bf3a723"/>
@@ -52,7 +52,7 @@
   <project name="platform/external/clang" path="external/clang" revision="a81676d5fa569fc66dda2697f0933a6338d9d5a3"/>
   <project name="platform/external/collada" path="external/collada" revision="538700ec332c8306a1283f8dfdb016e493905e6f"/>
   <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="b1ad6cbd7eb5a3bfe01ccac6c96fc6324232c0b2"/>
-  <project name="platform/external/connectivity" path="external/connectivity" revision="cd20ec712b4f59ae7a7ce5a88eb00d0c04add114"/>
+  <project name="platform/external/connectivity" path="external/connectivity" revision="ce48ea32ee8422fcf677e54cab4c3515c554b7bf"/>
   <project name="platform/external/curl" path="external/curl" revision="f43b0ff01af1a17b148e39f3fe6e806973cb56ca"/>
   <project name="platform/external/dbus" path="external/dbus" revision="5851382f27b2915ec6dfa4ab951e7bbdef59a1eb"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd" revision="c3e61f52408219164c388025028e6f158d4545ca"/>
@@ -78,7 +78,7 @@
   <project name="platform/external/gtest" path="external/gtest" revision="2ae00dcfeddad61a0df358a6f91b100f919cdb12"/>
   <project name="platform/external/guava" path="external/guava" revision="436f221940e8b7757119b00031f61cdae085bc84"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz" revision="116610d63a859521dacf00fb6818ee9ab2e666f6"/>
-  <project name="platform/external/hostap" path="external/hostap" revision="447466f46461a51b8ecaefd7351c4adf96711600"/>
+  <project name="platform/external/hostap" path="external/hostap" revision="001a246f8ccd14e6526cae84ea38803c9f47f6c2"/>
   <project name="platform/external/hostap-06" path="external/hostap-06" revision="df05d287d76d8551733f7df94ce175f423bb66d1"/>
   <project name="platform/external/hyphenation" path="external/hyphenation" revision="2c8b0b3430ee6a9ee501e6cc7921f8790851c286"/>
   <project name="platform/external/icu4c" path="external/icu4c" revision="0fa67b93b831c6636ca18b152a1b1b14cc99b034"/>
@@ -108,7 +108,6 @@
   <project name="platform/external/llvm" path="external/llvm" revision="d9527968ba7078ee6ce99dda8d8f555342032b91"/>
   <project name="platform/external/lohit-fonts" path="external/lohit-fonts" revision="93831fc2533ad2048b6d787dbd1839112625b8ad"/>
   <project name="platform/external/markdown" path="external/markdown" revision="21ce115e566aa5af7fe8a971805af1daab12c754"/>
-  <project name="platform/external/mesa3d" path="external/mesa3d" revision="84b418c1b6a37aac43ef0c0f5343042dddeb90eb"/>
   <project name="platform/external/mksh" path="external/mksh" revision="8380dd0a75783fc5e4a3e3b0f07f7e25bade3c8c"/>
   <project name="platform/external/mockwebserver" path="external/mockwebserver" revision="dcf52bd71fc3b0c07f9919b5d82064c425abcbdb"/>
   <project name="platform/external/mtpd" path="external/mtpd" revision="bc05a45da572531ea46e5b05338040b20a08bf91"/>
@@ -156,11 +155,7 @@
   <project name="platform/external/xmlwriter" path="external/xmlwriter" revision="e95d92246ee35273dde2bee8b00485cc14c12be5"/>
   <project name="platform/external/yaffs2" path="external/yaffs2" revision="0afa916204c664b3114429637b63af1321a0aeca"/>
   <project name="platform/external/zlib" path="external/zlib" revision="f96a1d1ebfdf1cd582210fd09c23d8f59e0ae094"/>
-  <project name="platform/frameworks/base" path="frameworks/base" revision="d088937726a748609466bf6c9374a45a89538310"/>
-  <project name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="611a8e65f6dede1ec4fd5489849465bbcf1e7d95"/>
-  <project name="platform/frameworks/compile/linkloader" path="frameworks/compile/linkloader" revision="db95b33acad225c61e2341007e95e4ff27e28034"/>
-  <project name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="0417c2f179c6acc6b0b068c984d47e3d1d1ac137"/>
-  <project name="platform/frameworks/ex" path="frameworks/ex" revision="2fc51e9d4c9fc125d44416fd838f8cb539ce393e"/>
+  <project name="platform/frameworks/base" path="frameworks/base" revision="00f1d8e1af0bb12ca4f0901f4287df773563cb67"/>
   <project name="platform/frameworks/media/libvideoeditor" path="frameworks/media/libvideoeditor" revision="0831dfbafd8995c6f65f4367c47ea016b7fa9c79"/>
   <project name="platform/frameworks/opt/calendar" path="frameworks/opt/calendar" revision="dfb12aeb69832a38e5d4de1a97e1bf1c3d300e98"/>
   <project name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="a95d8db002770469d72dfaf59ff37ac96db29a87"/>
@@ -168,15 +163,15 @@
   <project name="platform/frameworks/opt/mailcommon" path="frameworks/opt/mailcommon" revision="4462f3dd325c2dea2b8471cc053e07a0a1971c1b"/>
   <project name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="5fffd2ba2d7fc22271251251f89043ab345acd74"/>
   <project name="platform/frameworks/support" path="frameworks/support" revision="90ffd236fe7f1e2bec74bd8624284ea017b41e64"/>
-  <project name="platform/hardware/alsa_sound" path="hardware/qcom/alsa_sound" revision="a7b990c0f7f8ad3c09fb05c6f2136de631e75c3d"/>
+  <project name="platform/hardware/alsa_sound" path="hardware/qcom/alsa_sound" revision="8e15ba733c0e5fb152053813f94573683a67f7a6"/>
   <project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="7ade2d3f8475ca0e184f2f41146a07d8f56d75b8"/>
   <project name="platform/hardware/invensense" path="hardware/invensense" revision="a479592f3b2b9550505097b588ca6ad3e62be701"/>
   <project name="platform/hardware/libhardware" path="hardware/libhardware" revision="c7b8137765afd27f296cb3ae3d1839e7163866a8"/>
   <project name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="f7fe56dc72b4ba3e653ed40e5968a78bdb090fd2"/>
   <project name="platform/hardware/msm7k" path="hardware/msm7k" revision="8892d46805c5639b55dd07547745c5180da861e7"/>
-  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="cd1245d0f7376036b3b3a38bbbd815cceecbf7df"/>
-  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="9a4125266264f1d11f62322440c5f9dc2d4c4799"/>
-  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="75736c8b50052b8d2c7e1209aec2151955393182"/>
+  <project name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="520c286d73fb120853165f1fca584cbe80856b32"/>
+  <project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="02e7d07af1f9605f60c1ffe2d9a20c84fd61548c"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="d0a8e1ffa3dac03f91c96a6501f64eadb77f9f62"/>
   <project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="c925fee37475f972bbfc0f6986c6a6b1a975f6ae"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="b0dba8e7b4a39e069ef628f568bff4f4debe7ecf"/>
   <project name="platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="71b33a71357b3ec211ae479b154cec071e379353"/>
@@ -187,29 +182,29 @@
   <project name="platform/prebuilt" path="prebuilt" revision="248d92592df169569c387a91db56b1fedd6e5d29"/>
   <project name="platform/sdk" path="sdk" revision="0c3f63cd0ea273b9b69beb0454c9b38642bf5948"/>
   <project name="platform/system/bluetooth" path="system/bluetooth" revision="1627e2ed81bc9f423e618f33decf2bdd5c9bafd1"/>
-  <project name="platform/system/core" path="system/core" revision="3fbdc92080bf4bda9744903418fc58ebc1d1279a"/>
+  <project name="platform/system/core" path="system/core" revision="775760ba15a6d9fbff312f82cb46875d49a7e1c7"/>
   <project name="platform/system/extras" path="system/extras" revision="5d954056729c57776daa3ad2c7dc6702bd278a10"/>
   <project name="platform/system/media" path="system/media" revision="7bc842afc546b7f9099087a94cb1f8f0a31e2e24"/>
-  <project name="platform/system/netd" path="system/netd" revision="4fc182ba45e250b784d25604cb9adc6233eee203"/>
-  <project name="platform/system/qcom" path="system/qcom" revision="9f0d356f582ee8dba38fac7b0cceb2c9fb29658e"/>
+  <project name="platform/system/netd" path="system/netd" revision="e36cabf99eb9c8ceb08c81adca465c8e421a8d59"/>
+  <project name="platform/system/qcom" path="system/qcom" revision="684d2f951438a5ce43dfcb407a79df8d9cf4796e"/>
   <project name="platform/system/vold" path="system/vold" revision="3f87f19bf8bdf3a7cb3c01ef2b2c5810633e78ef"/>
   <project name="platform/vendor/qcom-opensource/battery_monitor" path="vendor/qcom/opensource/battery_monitor" revision="461e887fc16a31d3a817f00cdf213daee234b8ee"/>
   <project name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex" revision="9514644f3687126181a37b9e36591310d8d07f41"/>
   <project name="platform/vendor/qcom-opensource/diag" path="vendor/qcom/opensource/diag" revision="5801fdb892955dbc66146a23aff451fe5d437bb8"/>
-  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="vendor/qcom/opensource/kernel-tests/mm-audio" revision="63e6c321c731dc6b9ac1e869d88e18eb1d87b22d"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="vendor/qcom/opensource/kernel-tests/mm-audio" revision="10d137af4c69da35ddf842003abde3c63090b61c"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-audio" path="vendor/qcom/opensource/omx/mm-audio" revision="8d4cfe6033d7f814b39fc4044f349faddff2a999"/>
   <project name="platform/vendor/qcom-opensource/omx/mm-core" path="vendor/qcom/opensource/omx/mm-core" revision="f02d2669cfe78e9861614b64057978bc6858591d"/>
-  <project name="platform/vendor/qcom-opensource/omx/mm-video" path="vendor/qcom/opensource/omx/mm-video" revision="3601238c70f30f76d01ff1e0716b3ac9f38487f0"/>
+  <project name="platform/vendor/qcom-opensource/omx/mm-video" path="vendor/qcom/opensource/omx/mm-video" revision="b7039b556ee2ec4b457fc3d2547aa2b95ba869d3"/>
   <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="8ae7d5675a71cc6a873e4a59940474e43fb09241"/>
   <project name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8" revision="f0a62aa3080221d28730b1eeac9c50da1790f469"/>
   <project name="platform/vendor/qcom/android-open" path="vendor/qcom/android-open" revision="ed4adb13d951d1b735eac0392da5a72d3c64315e"/>
   <project name="platform/vendor/qcom/copper" path="device/qcom/copper" revision="fc643b98a5f4c3e78f7d6e0b3ccda900c378735d"/>
   <project name="platform/vendor/qcom/msm7627_6x" path="device/qcom/msm7627_6x" revision="cfa6cd52cf740b0c1ede14fd9cc538bc6bea8688"/>
-  <project name="platform/vendor/qcom/msm7627_surf" path="device/qcom/msm7627_surf" revision="d0437c57d1ddee9bcdd4d8d4eb6ea58f414efaea"/>
-  <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a" revision="92e6c32feb2d0359849ce1b56007650abd352eee"/>
-  <project name="platform/vendor/qcom/msm7630_fusion" path="device/qcom/msm7630_fusion" revision="cde88d917a67aae2baf9379310fa8527c3631601"/>
-  <project name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf" revision="32e8451075af530a288035b91b166c2a82e88398"/>
-  <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf" revision="ab0bae154f308404d625391febd5b6a03ff00f49"/>
-  <project name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960" revision="33001dae628e9625fbbfa0831228baa27b6119a2"/>
-  <project name="quic/b2g/build" path="device/qcom/b2g_common" revision="66c5805e19f2bb333b4d8004e362b064b9a696c5"/>
+  <project name="platform/vendor/qcom/msm7627_surf" path="device/qcom/msm7627_surf" revision="1fba250631254a68f38a8472e2adc322e7a67eec"/>
+  <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a" revision="276214334c98b2977e4fbd02801b1439fc624dde"/>
+  <project name="platform/vendor/qcom/msm7630_fusion" path="device/qcom/msm7630_fusion" revision="9d580ad885f13157366417ce46408d58f80846db"/>
+  <project name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf" revision="4b725ef0468beef5de843f6d36d3d65f168cc380"/>
+  <project name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf" revision="d2d2bba3c2fc53b55151c8ed7563063a1b136c63"/>
+  <project name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960" revision="4a25223dd553894d6d389df724f3208dc3e672db"/>
+  <project name="quic/b2g/build" path="device/qcom/b2g_common" revision="a508d4a73ef333af8e4399b0d95ad31e3a87a56b"/>
 </manifest>
