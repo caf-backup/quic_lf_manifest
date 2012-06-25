@@ -1,7 +1,7 @@
 <manifest>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   <remote fetch="git://github.com/" name="github" review="null"/>
-  <default remote="caf" revision="ics"/>
+  <default remote="caf" revision="ics_chocolate"/>
   <!-- B2G projects -->
   <project remote="github" name="mozilla-b2g/rilproxy" path="rilproxy" revision="refs/heads/master"/>
   <project remote="github" name="mozilla-b2g/fake-dalvik" path="dalvik" revision="refs/heads/master"/>
@@ -20,8 +20,8 @@
   <project name="device/samsung/maguro"/>
   <project name="device/samsung/tuna"/>
   <project name="device/ti/panda"/>
-  <project name="kernel/lk" path="bootable/bootloader/lk" revision="refs/heads/master"/>
-  <project name="kernel/msm" path="kernel" revision="refs/heads/msm-3.0"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk"/>
+  <project name="kernel/msm" path="kernel"/>
   <project name="platform/abi/cpp" path="abi/cpp"/>
   <project name="platform/bionic" path="bionic"/>
   <project name="platform/bootable/bootloader/legacy" path="bootable/bootloader/legacy"/>
@@ -32,8 +32,8 @@
   </project>
   <project name="platform/development" path="development"/>
   <project name="platform/docs/source.android.com" path="docs/source.android.com"/>
-  <project name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core" revision="refs/heads/master"/>
-  <project name="platform/external/alljoyn/common" path="external/alljoyn/common" revision="refs/heads/master"/>
+  <project name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core"/>
+  <project name="platform/external/alljoyn/common" path="external/alljoyn/common"/>
   <project name="platform/external/android-mock" path="external/android-mock"/>
   <project name="platform/external/antlr" path="external/antlr"/>
   <project name="platform/external/apache-harmony" path="external/apache-harmony"/>
@@ -51,9 +51,8 @@
   <project name="platform/external/bzip2" path="external/bzip2"/>
   <project name="platform/external/clang" path="external/clang"/>
   <project name="platform/external/collada" path="external/collada"/>
-  <project name="platform/external/compat-wireless" path="external/compat-wireless" revision="refs/heads/master"/>
-  <project name="platform/external/connectivity" path="external/connectivity" revision="refs/heads/master"/>
-  <project name="platform/external/curl" path="external/curl" revision="refs/heads/master"/>
+  <project name="platform/external/connectivity" path="external/connectivity"/>
+  <project name="platform/external/curl" path="external/curl"/>
   <project name="platform/external/dbus" path="external/dbus"/>
   <project name="platform/external/dhcpcd" path="external/dhcpcd"/>
   <project name="platform/external/dnsmasq" path="external/dnsmasq"/>
@@ -78,8 +77,8 @@
   <project name="platform/external/gtest" path="external/gtest"/>
   <project name="platform/external/guava" path="external/guava"/>
   <project name="platform/external/harfbuzz" path="external/harfbuzz"/>
-  <project name="platform/external/hostap" path="external/hostap" revision="refs/heads/master"/>
-  <project name="platform/external/hostap-06" path="external/hostap-06" revision="refs/heads/master"/>
+  <project name="platform/external/hostap" path="external/hostap"/>
+  <project name="platform/external/hostap-06" path="external/hostap-06"/>
   <project name="platform/external/hyphenation" path="external/hyphenation"/>
   <project name="platform/external/icu4c" path="external/icu4c"/>
   <project name="platform/external/iproute2" path="external/iproute2"/>
@@ -122,7 +121,7 @@
   <project name="platform/external/pcre" path="external/pcre"/>
   <project name="platform/external/ping" path="external/ping"/>
   <project name="platform/external/ping6" path="external/ping6"/>
-  <project name="platform/external/powertop" path="external/powertop" revision="refs/heads/master"/>
+  <project name="platform/external/powertop" path="external/powertop"/>
   <project name="platform/external/ppp" path="external/ppp"/>
   <project name="platform/external/proguard" path="external/proguard"/>
   <project name="platform/external/protobuf" path="external/protobuf"/>
@@ -144,7 +143,7 @@
   <project name="platform/external/tinyalsa" path="external/tinyalsa"/>
   <project name="platform/external/tinyxml" path="external/tinyxml"/>
   <project name="platform/external/tremolo" path="external/tremolo"/>
-  <project name="platform/external/tslib" path="external/tslib" revision="refs/heads/master"/>
+  <project name="platform/external/tslib" path="external/tslib"/>
   <project name="platform/external/v8" path="external/v8"/>
   <project name="platform/external/valgrind" path="external/valgrind"/>
   <project name="platform/external/webp" path="external/webp"/>
@@ -186,20 +185,20 @@
   <project name="platform/system/extras" path="system/extras"/>
   <project name="platform/system/media" path="system/media"/>
   <project name="platform/system/netd" path="system/netd"/>
-  <project name="platform/system/qcom" path="system/qcom" revision="refs/heads/master"/>
+  <project name="platform/system/qcom" path="system/qcom"/>
   <project name="platform/system/vold" path="system/vold"/>
-  <project name="platform/vendor/qcom-opensource/battery_monitor" path="vendor/qcom/opensource/battery_monitor" revision="refs/heads/master"/>
-  <project name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex" revision="refs/heads/master"/>
-  <project name="platform/vendor/qcom-opensource/diag" path="vendor/qcom/opensource/diag" revision="refs/heads/master"/>
-  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="vendor/qcom/opensource/kernel-tests/mm-audio" revision="refs/heads/master"/>
-  <project name="platform/vendor/qcom-opensource/omx/mm-audio" path="vendor/qcom/opensource/omx/mm-audio" revision="refs/heads/master"/>
-  <project name="platform/vendor/qcom-opensource/omx/mm-core" path="vendor/qcom/opensource/omx/mm-core" revision="refs/heads/master"/>
-  <project name="platform/vendor/qcom-opensource/omx/mm-video" path="vendor/qcom/opensource/omx/mm-video" revision="refs/heads/master"/>
-  <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="refs/heads/master"/>
-  <project name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8" revision="refs/heads/master"/>
-  <project name="platform/vendor/qcom/android-open" path="vendor/qcom/android-open" revision="refs/heads/master"/>
+  <project name="platform/vendor/qcom-opensource/battery_monitor" path="vendor/qcom/opensource/battery_monitor"/>
+  <project name="platform/vendor/qcom-opensource/bt-wlan-coex" path="vendor/qcom/opensource/bt-wlan-coex"/>
+  <project name="platform/vendor/qcom-opensource/diag" path="vendor/qcom/opensource/diag"/>
+  <project name="platform/vendor/qcom-opensource/kernel-tests/mm-audio" path="vendor/qcom/opensource/kernel-tests/mm-audio"/>
+  <project name="platform/vendor/qcom-opensource/omx/mm-audio" path="vendor/qcom/opensource/omx/mm-audio"/>
+  <project name="platform/vendor/qcom-opensource/omx/mm-core" path="vendor/qcom/opensource/omx/mm-core"/>
+  <project name="platform/vendor/qcom-opensource/omx/mm-video" path="vendor/qcom/opensource/omx/mm-video"/>
+  <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services"/>
+  <project name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8"/>
+  <project name="platform/vendor/qcom/android-open" path="vendor/qcom/android-open"/>
   <project name="platform/vendor/qcom/copper" path="device/qcom/copper"/>
-  <project name="platform/vendor/qcom/msm7627_6x" path="device/qcom/msm7627_6x" revision="refs/heads/master"/>
+  <project name="platform/vendor/qcom/msm7627_6x" path="device/qcom/msm7627_6x"/>
   <project name="platform/vendor/qcom/msm7627_surf" path="device/qcom/msm7627_surf"/>
   <project name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a"/>
   <project name="platform/vendor/qcom/msm7630_fusion" path="device/qcom/msm7630_fusion"/>
