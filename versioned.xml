@@ -3,7 +3,7 @@
   <remote fetch="git://github.com/" name="github" review="null"/>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="ics_chocolate"/>
-  <project name="b2g/build" path="device/qcom/b2g_common" revision="e4b55c460f15f470b733feed69a57c2bbb062362"/>
+  <project name="quic/b2g/build" path="device/qcom/b2g_common" revision="e4b55c460f15f470b733feed69a57c2bbb062362"/>
   <project name="device/common" revision="7c65ea240157763b8ded6154a17d3c033167afb7"/>
   <project name="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c"/>
   <project name="device/google/accessory/arduino" revision="9b1ef69828775a15396b753c16a83417bb769138"/>
