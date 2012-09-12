@@ -4,7 +4,7 @@
   <remote fetch="git://android.git.linaro.org/" name="linaro" review="null"/>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="ics_strawberry"/>
-  <project groups="name:b2g/build,path:device/qcom/b2g_common" name="b2g/build" path="device/qcom/b2g_common" revision="01d2883828b26a8bcbe7cb190bf471e1fe98d2e7"/>
+  <project groups="name:b2g/build,path:device/qcom/b2g_common" name="quic/b2g/build" path="device/qcom/b2g_common" revision="01d2883828b26a8bcbe7cb190bf471e1fe98d2e7"/>
   <project groups="path:device/qcom/b2g_common/mozilla-b2g,name:b2g/mozilla-b2g/B2G" name="b2g/mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" revision="ea373f74e52843966845ad824c18aac9aa49ce9d"/>
   <project groups="path:dalvik,name:b2g/mozilla-b2g/fake-dalvik" name="b2g/mozilla-b2g/fake-dalvik" path="dalvik" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce"/>
   <project groups="name:b2g/mozilla-b2g/gaia,path:gaia" name="b2g/mozilla-b2g/gaia" path="gaia" revision="fc4057f2bd3158c563ea06e9a5f0f5ea8e20dd8c"/>
