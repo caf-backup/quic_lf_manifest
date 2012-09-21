@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://github.com/" name="github" review="null"/>
+  <remote fetch="git://android.git.linaro.org/" name="linaro" review="null"/>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="ics_strawberry"/>
-  <project groups="name:quic/b2g/build,path:device/qcom/b2g_common" name="quic/b2g/build" path="device/qcom/b2g_common" revision="01d2883828b26a8bcbe7cb190bf471e1fe98d2e7"/>
-  <project groups="path:device/qcom/b2g_common/mozilla-b2g,name:mozilla-b2g/B2G" remote="github" name="mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" revision="ea373f74e52843966845ad824c18aac9aa49ce9d"/>
-  <project groups="path:dalvik,name:mozilla-b2g/fake-dalvik" remote="github" name="mozilla-b2g/fake-dalvik" path="dalvik" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce"/>
-  <project groups="name:mozilla-b2g/gaia,path:gaia" remote="github" name="mozilla-b2g/gaia" path="gaia" revision="fc4057f2bd3158c563ea06e9a5f0f5ea8e20dd8c"/>
-  <project groups="path:gonk-misc,name:mozilla-b2g/gonk-misc" remote="github" name="mozilla-b2g/gonk-misc" path="gonk-misc" revision="ec56d3ede37a051321ea7c1973b5c29ef53a88db"/>
-  <project groups="path:external/opensans,name:mozilla-b2g/platform_external_opensans" remote="github" name="mozilla-b2g/platform_external_opensans" path="external/opensans" revision="b5b4c226ca1d71e936153cf679dda6d3d60e2354"/>
-  <project groups="name:mozilla-b2g/rilproxy,path:rilproxy" remote="github" name="mozilla-b2g/rilproxy" path="rilproxy" revision="32106d4ea635ebe17a1610b643b398db639b8b97"/>
-  <project groups="path:gecko,name:mozilla/mozilla-central" remote="github" name="mozilla/mozilla-central" path="gecko" revision="0ce1f32125257961232c65c7d6251314f9e0f2be"/>
+  <project groups="name:b2g/build,path:device/qcom/b2g_common" name="b2g/build" path="device/qcom/b2g_common" revision="01d2883828b26a8bcbe7cb190bf471e1fe98d2e7"/>
+  <project groups="path:device/qcom/b2g_common/mozilla-b2g,name:b2g/mozilla-b2g/B2G" name="b2g/mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" revision="ea373f74e52843966845ad824c18aac9aa49ce9d"/>
+  <project groups="path:dalvik,name:b2g/mozilla-b2g/fake-dalvik" name="b2g/mozilla-b2g/fake-dalvik" path="dalvik" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce"/>
+  <project groups="name:b2g/mozilla-b2g/gaia,path:gaia" name="b2g/mozilla-b2g/gaia" path="gaia" revision="fc4057f2bd3158c563ea06e9a5f0f5ea8e20dd8c"/>
+  <project groups="path:gonk-misc,name:b2g/mozilla-b2g/gonk-misc" name="b2g/mozilla-b2g/gonk-misc" path="gonk-misc" revision="ec56d3ede37a051321ea7c1973b5c29ef53a88db"/>
+  <project groups="path:external/opensans,name:b2g/mozilla-b2g/platform_external_opensans" name="b2g/mozilla-b2g/platform_external_opensans" path="external/opensans" revision="b5b4c226ca1d71e936153cf679dda6d3d60e2354"/>
+  <project groups="name:b2g/mozilla-b2g/rilproxy,path:rilproxy" name="b2g/mozilla-b2g/rilproxy" path="rilproxy" revision="32106d4ea635ebe17a1610b643b398db639b8b97"/>
+  <project groups="path:gecko,name:b2g/mozilla/mozilla-central" name="b2g/mozilla/mozilla-central" path="gecko" revision="0ce1f32125257961232c65c7d6251314f9e0f2be"/>
   <project groups="name:device/common,path:device/common" name="device/common" revision="0dcc1e03659db33b77392529466f9eb685cdd3c7"/>
   <project groups="name:device/generic/goldfish,path:device/generic/goldfish" name="device/generic/goldfish" revision="5feb8ecfd93c4e3c9eec89ab20dd143d05f7e91c"/>
   <project groups="path:device/google/accessory/arduino,name:device/google/accessory/arduino" name="device/google/accessory/arduino" revision="9b1ef69828775a15396b753c16a83417bb769138"/>
