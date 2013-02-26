@@ -2,7 +2,7 @@
 <manifest>
   <x-mozbuild buildid="20130224070201" update_channel="beta" version="18.0"/>
   <remote fetch="git://github.com/" name="github" review="null"/>
-  <remote fetch="git://codeaurora.org" name="caf" review="codeaurora.org"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="ics_strawberry"/>
   <project groups="default" name="quic/b2g/build" path="device/qcom/b2g_common" revision="9c8dd1fc0203e3a59626cfa9e9fc07cf70a096e4"/>
   <project groups="default" name="douglascrockford/JSMin" path="external/jsmin" revision="cec896f0affaa0226c02605ad28d42df1bc0e393" remote="github"/>
