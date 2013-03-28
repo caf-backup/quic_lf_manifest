@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <x-mozbuild buildid="20130326070208" update_channel="nightly" version="18.0"/>
-  <remote fetch="git://codeaurora.org/quic/lf" name="caf" review="null"/>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="ics_strawberry_v1"/>
-  <project groups="default" name="quic/b2g/build" path="device/qcom/b2g_common" revision="ad2d447282b6626561ddb2f6d2df76d729cf93db"/>
+  <project groups="default" name="quic/lf/b2g/build" path="device/qcom/b2g_common" revision="ad2d447282b6626561ddb2f6d2df76d729cf93db"/>
   <project groups="default" name="quic/lf/b2g/external/jsmin" path="external/jsmin" revision="cec896f0affaa0226c02605ad28d42df1bc0e393" remote="caf"/>
   <project groups="default" name="quic/lf/b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" revision="9e533ecd6b581aef519b3b0ac93d7c06b72e70f2" remote="caf"/>
   <project groups="default" name="quic/lf/b2g/fake-dalvik" path="dalvik" revision="ca1f327d5acc198bb4be62fa51db2c039032c9ce" remote="caf"/>
@@ -201,21 +200,21 @@
   <project groups="default" name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="bfe92672bc5ad437e7655c20512b3f493ea285b8"/>
   <project groups="default" name="platform/vendor/qcom/android-open" path="vendor/qcom/android-open" revision="65990315bd0c3fdff6ef12d2c27392069e3a5b9f"/>
   <project groups="default" name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a" revision="5750d16c3b37827ee6e4061a94a3cce9127165a3"/>
-  <project groups="default" name="quic/releases/l10n/cs/gaia" path="gaia-l10n/cs" revision="a438c0f96791b204daf4d957d25149728f930a64" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/cs/gecko" path="gecko-l10n/cs" revision="1ff63521728566e42d76c6db2bbbc7fec533a50e" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/de/gaia" path="gaia-l10n/de" revision="2949e86372cb7788693f789662f707ef6afac45b" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/de/gecko" path="gecko-l10n/de" revision="18df18b4af426b9f8ac508a920138e8835300503" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/en-US/gaia" path="gaia-l10n/en-US" revision="19bc11f665c56944cf049fd58eceafb7249a3bdb" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/es-ES/gecko" path="gecko-l10n/es-ES" revision="04c49b0522076e8c323fa71ab60d5fc256ad9ebc" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/es/gaia" path="gaia-l10n/es" revision="b10ab5dece4fbd402757d0e3080da7bf52a78e54" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/hr/gaia" path="gaia-l10n/hr" revision="a8f5bf427bf4394775edbbfcba4ecf5d6af0b2b7" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/hr/gecko" path="gecko-l10n/hr" revision="3c662782b37c878fc68a21e31cf007eac1cefa6b" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/hu/gaia" path="gaia-l10n/hu" revision="792f8315d0113761af2c984a21a830da9e5b9900" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/hu/gecko" path="gecko-l10n/hu" revision="828b6029b24bbda19c4b558b66d93a6298614b04" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/pl/gaia" path="gaia-l10n/pl" revision="942c4721efe4fbffc41e2a8f93c88b483c697234" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/pl/gecko" path="gecko-l10n/pl" revision="36a0e5a2edc08e743233391a9a7f8cf141f36157" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/pt-BR/gaia" path="gaia-l10n/pt-BR" revision="980a8eb8abe9d682e2e5889e643fa218d009cfe5" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/pt-BR/gecko" path="gecko-l10n/pt-BR" revision="943b6540cc21ded627ae4d69945c3d211930ef51" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/ro/gaia" path="gaia-l10n/ro" revision="68ad56a0f17d4766554a82c5fd1371fa929a9047" remote="caf"/>
-  <project groups="default" name="quic/releases/l10n/ro/gecko" path="gecko-l10n/ro" revision="1f6b04c73fa505a99579935449470df506a68217" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/cs/gaia" path="gaia-l10n/cs" revision="a438c0f96791b204daf4d957d25149728f930a64" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/cs/gecko" path="gecko-l10n/cs" revision="1ff63521728566e42d76c6db2bbbc7fec533a50e" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/de/gaia" path="gaia-l10n/de" revision="2949e86372cb7788693f789662f707ef6afac45b" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/de/gecko" path="gecko-l10n/de" revision="18df18b4af426b9f8ac508a920138e8835300503" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/en-US/gaia" path="gaia-l10n/en-US" revision="19bc11f665c56944cf049fd58eceafb7249a3bdb" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/es-ES/gecko" path="gecko-l10n/es-ES" revision="04c49b0522076e8c323fa71ab60d5fc256ad9ebc" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/es/gaia" path="gaia-l10n/es" revision="b10ab5dece4fbd402757d0e3080da7bf52a78e54" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/hr/gaia" path="gaia-l10n/hr" revision="a8f5bf427bf4394775edbbfcba4ecf5d6af0b2b7" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/hr/gecko" path="gecko-l10n/hr" revision="3c662782b37c878fc68a21e31cf007eac1cefa6b" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/hu/gaia" path="gaia-l10n/hu" revision="792f8315d0113761af2c984a21a830da9e5b9900" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/hu/gecko" path="gecko-l10n/hu" revision="828b6029b24bbda19c4b558b66d93a6298614b04" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/pl/gaia" path="gaia-l10n/pl" revision="942c4721efe4fbffc41e2a8f93c88b483c697234" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/pl/gecko" path="gecko-l10n/pl" revision="36a0e5a2edc08e743233391a9a7f8cf141f36157" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/pt-BR/gaia" path="gaia-l10n/pt-BR" revision="980a8eb8abe9d682e2e5889e643fa218d009cfe5" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/pt-BR/gecko" path="gecko-l10n/pt-BR" revision="943b6540cc21ded627ae4d69945c3d211930ef51" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/ro/gaia" path="gaia-l10n/ro" revision="68ad56a0f17d4766554a82c5fd1371fa929a9047" remote="caf"/>
+  <project groups="default" name="quic/lf/releases/l10n/ro/gecko" path="gecko-l10n/ro" revision="1f6b04c73fa505a99579935449470df506a68217" remote="caf"/>
 </manifest>
