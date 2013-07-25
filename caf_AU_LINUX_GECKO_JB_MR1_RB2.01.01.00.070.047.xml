@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <x-mozbuild buildid="20130723030202" update_channel="nightly" version="25.0a1" gecko-fingerprint="0f1811e8c3a047bd51050de6e4213abe01192623"/>
+  <x-mozbuild buildid="20130723030202" update_channel="nightly" version="25.0a1" gecko-fingerprint="0f1811e8c3a047bd51050de6e4213abe01192623"/>
+  <remote fetch="git://codeaurora.org/quic/lf" name="caf_lf" review="null"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="b2g/jb_mr1_rb2.17"/>
+  <project groups="default" name="quic/lf/b2g/build" path="device/qcom/b2g_common" revision="6fa26e97bbaf6bb86104895330f258a8155ea1d7"/>
+  <project groups="default" name="quic/lf/b2g/external/jsmin" path="external/jsmin" revision="cec896f0affaa0226c02605ad28d42df1bc0e393"/>
+  <project groups="default" name="quic/lf/b2g/mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" revision="1f777756bfd1a80381208ef9851315ce1cec3dc3"/>
+  <project groups="default" name="quic/lf/b2g/mozilla-b2g/gonk-misc" path="gonk-misc" revision="56f756d207db2a13bb4981edcbb55bc5f28cbdb5"/>
+  <project groups="default" name="quic/lf/b2g/mozilla-b2g/librecovery" path="librecovery" revision="84f2f2fce22605e17d511ff1767e54770067b5b5"/>
+  <project groups="default" name="quic/lf/b2g/mozilla-b2g/moztt" path="external/moztt" revision="a2de4bc8899402044125a13d3af18246e9badb92"/>
+  <project groups="default" name="quic/lf/b2g/mozilla/gaia" path="gaia" revision="50cbc05a8b56b39aad00b677a6c3bd5a2e900b1f"/>
+  <project groups="default" name="quic/lf/b2g/mozilla/gecko" path="gecko" revision="6d766118c832fb2879d7db3e46ae535ccdac7b4a"/>
+  <project groups="default" name="device/asus/grouper" revision="8f5a6f89308b3c8097341faaa9d839d86d6d85cb"/>
+  <project groups="default" name="device/asus/tilapia" revision="0f759bd5979cc388c4346264b831e482c858da3d"/>
+  <project groups="default" name="device/common" revision="2f4463856c02276b0de568acaa3e71180169460e"/>
+  <project groups="default" name="device/generic/armv7-a" revision="700aab170ce712a62b268055637c0afded59bf04"/>
+  <project groups="default" name="device/generic/armv7-a-neon" revision="8a52ffa74a764bfe0445c2eac59048217302e152"/>
+  <project groups="default" name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461"/>
+  <project groups="default" name="device/generic/goldfish" revision="59f7d9fc8b2c46c5d43eefff124410f364e20939"/>
+  <project groups="default" name="device/generic/mips" revision="764fe788f7e9cefdd3be6ea29847f19a4f818f94"/>
+  <project groups="default" name="device/generic/x86" revision="ae8e76ccfa7666e4eee9f0e584e3d02720a65651"/>
+  <project groups="default" name="device/google/accessory/arduino" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5"/>
+  <project groups="default" name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9"/>
+  <project groups="default" name="device/qcom/common" revision="91eac7bd996a7828ed3b3ff44bfdb87b4057c0cd">
+    <copyfile dest="build.sh" src="build.sh"/>
+  </project>
+  <project groups="default" name="device/sample" revision="243593b40a34dfaa55a77355fc8f5f00d6f14c20"/>
+  <project groups="default" name="device/samsung/maguro" revision="c93fe3ee8e58c2dbd27b1f82a7dfdc7b040e4244"/>
+  <project groups="default" name="device/samsung/manta" revision="5cb6d924a221beac9474ff67773d554640820b9b"/>
+  <project groups="default" name="device/samsung/toro" revision="fa4d6a5f5646f47d82a9dfb356949485e6d2bcce"/>
+  <project groups="default" name="device/samsung/toroplus" revision="4ea2e8d35246ae07e6f26614a53e5132841bd9ff"/>
+  <project groups="default" name="device/samsung/tuna" revision="bc98089e6572034aa1512ea8cbe4ffd44d6df5ea"/>
+  <project groups="default" name="device/ti/panda" revision="24ec8c5af7468b6879553f3beff76d78675269e7"/>
+  <project groups="default" name="kernel/lk" path="bootable/bootloader/lk" revision="40464efb3d2b97647eb133844fe2363ec00a29d2"/>
+  <project groups="default" name="kernel/msm" path="kernel" revision="6a2700073bb1af6d9fe27db17334ceff037dce98"/>
+  <project groups="default" name="l10n/compare-locales" path="compare-locales" remote="caf_lf" revision="1c880a1258b7d96641010c90ed9b9bd0cc43b39d"/>
+  <project groups="default" name="platform/abi/cpp" path="abi/cpp" revision="eb789ea833d8d800662b67914d9c1785a58c2caa"/>
+  <project groups="default" name="platform/bionic" path="bionic" revision="938dcb31891046caa26bec23e47669029314d349"/>
+  <project groups="default" name="platform/bootable/diskinstaller" path="bootable/diskinstaller" revision="60d078a5924284a452a8fe739247704f8b31c754"/>
+  <project groups="default" name="platform/bootable/recovery" path="bootable/recovery" revision="a88a3b35960e5c12fd4de18c58376d9c78e19043"/>
+  <project groups="default" name="platform/build" path="build" revision="00d61701ec2a47846dabbefcd9ef3647d9d15973">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+  </project>
+  <project groups="default" name="platform/docs/source.android.com" path="docs/source.android.com" revision="6ae7c3dbdc5f13f079aec637a255bf5aa09597d8"/>
+  <project groups="default" name="platform/external/aac" path="external/aac" revision="6ab36997af5d5acda4f21d33031f4e45c85f96b7"/>
+  <project groups="default" name="platform/external/alljoyn/alljoyn_core" path="external/alljoyn/alljoyn_core" revision="83105a1cd6e448dc0ea8bda96e053362a6b31fd3"/>
+  <project groups="default" name="platform/external/alljoyn/common" path="external/alljoyn/common" revision="1eb5e9356792de821beb0eb7e02e62a3e6e03994"/>
+  <project groups="default" name="platform/external/ant-wireless/ant_native" path="external/ant-wireless/ant_native" revision="fa5c422908eacd37928836bbcdd4f8cbc8c73690"/>
+  <project groups="default" name="platform/external/ant-wireless/ant_service" path="external/ant-wireless/ant_service" revision="b50c3ac021b0198d4c63339ead91de657d3e28e5"/>
+  <project groups="default" name="platform/external/arduino" path="external/arduino" revision="d5790d78880d4bd60be277ee20e53a851aa8c116"/>
+  <project groups="default" name="platform/external/astl" path="external/astl" revision="f2ee14f99092efb28cfd07a5c8db4d15d09908b8"/>
+  <project groups="default" name="platform/external/bison" path="external/bison" revision="4af3c477523bc96a5a535500a722cd563f1d486f"/>
+  <project groups="default" name="platform/external/blktrace" path="external/blktrace" revision="6c36b23bdd4b44675feb29ac4d37656419d4f711"/>
+  <project groups="default" name="platform/external/bluetooth/bluedroid" path="external/bluetooth/bluedroid" revision="412ab6610869c40183b856f7b9ee1cade4f6ee1a"/>
+  <project groups="default" name="platform/external/bluetooth/bluez" path="external/bluetooth/bluez" revision="f0689ac1914cdbc59e53bdc9edd9013dc157c299"/>
+  <project groups="default" name="platform/external/bluetooth/glib" path="external/bluetooth/glib" revision="dd925f76e4f149c3d5571b80e12f7e24bbe89c59"/>
+  <project groups="default" name="platform/external/bluetooth/hcidump" path="external/bluetooth/hcidump" revision="e412baee3990246a6eda35b972059eaf599c2ec3"/>
+  <project groups="default" name="platform/external/brctl" path="external/brctl" revision="85130b403dea07b2230efed3287236fa0caefb1c"/>
+  <project groups="default" name="platform/external/bsdiff" path="external/bsdiff" revision="23e322ab19fb7d74c2c37e40ce364d9f709bdcee"/>
+  <project groups="default" name="platform/external/bson" path="external/bson" revision="ad6fc5dbb5f4369e08f7543b1517c225281900c0"/>
+  <project groups="default" name="platform/external/bzip2" path="external/bzip2" revision="8a81a414914781498381ad24153c5e6c4a7ed525"/>
+  <project groups="default" name="platform/external/checkpolicy" path="external/checkpolicy" revision="a6834194069d4dd2f5883b57a0783b97def7e9ab"/>
+  <project groups="default" name="platform/external/cibu-fonts" path="external/cibu-fonts" revision="04031024425e067f6b0fdc40def6e04516c31c4f"/>
+  <project groups="default" name="platform/external/cimax" path="external/cimax" revision="149659cecbc4d16931d6775bb150ea2f1068a856"/>
+  <project groups="default" name="platform/external/clang" path="external/clang" revision="210d8aa7162e928d81d3f284b5ca7bc6bb3a9ba7"/>
+  <project groups="default" name="platform/external/compat-wireless" path="external/compat-wireless" revision="c7f991e800031f5f2bbc8b931d04b7a8d433d89b"/>
+  <project groups="default" name="platform/external/compiler-rt" path="external/compiler-rt" revision="1f922a5259510f70a12576e7a61eaa0033a02b16"/>
+  <project groups="default" name="platform/external/connectivity" path="external/connectivity" revision="3a664fa51724a37727dc713d0d77bea70219ab18"/>
+  <project groups="default" name="platform/external/crda" path="external/crda" revision="d58330f7c875d4fa7ed251eceda91111c479e305"/>
+  <project groups="default" name="platform/external/curl" path="external/curl" revision="e68addd988448959ea8157c5de637346b4180c33"/>
+  <project groups="default" name="platform/external/dbus" path="external/dbus" revision="ea87119c843116340f5df1d94eaf8275e1055ae8"/>
+  <project groups="default" name="platform/external/dhcpcd" path="external/dhcpcd" revision="835749228c86d9478691fbb0b2ee685c6d3f393d"/>
+  <project groups="default" name="platform/external/dnsmasq" path="external/dnsmasq" revision="758fb6cde3ee6ab53aa6b4b07a2acc2bde0b6c5d"/>
+  <project groups="default" name="platform/external/dropbear" path="external/dropbear" revision="23022b83136aed155988e760f890ad01b2b77f92"/>
+  <project groups="default" name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="1bae8ff544d32b6a0a417b0b36ea68ab19d3adda"/>
+  <project groups="default" name="platform/external/ebtables" path="external/ebtables" revision="b070104dcb72b99825d645e9e41a5362bd4ff735"/>
+  <project groups="default" name="platform/external/elfutils" path="external/elfutils" revision="101941576c52a1270c9c2d63ea95d48729d6cf96"/>
+  <project groups="default" name="platform/external/embunit" path="external/embunit" revision="336b7c65098af0d1be69f2db55f4e75342d73b3f"/>
+  <project groups="default" name="platform/external/esd" path="external/esd" revision="224a67f2683a7ee997179fc5dd16115e39987b0f"/>
+  <project groups="default" name="platform/external/expat" path="external/expat" revision="bb9f3f74212ef523ff693cba9d782575ebba7418"/>
+  <project groups="default" name="platform/external/fdlibm" path="external/fdlibm" revision="24856709256f5243a6c29446577052f15fb1ab3b"/>
+  <project groups="default" name="platform/external/flac" path="external/flac" revision="686d6ff2afda2ea3211bec37ad0daa655c24e6d4"/>
+  <project groups="default" name="platform/external/freetype" path="external/freetype" revision="8afe960626dbf326354b836fd4d63e05b6974195"/>
+  <project groups="default" name="platform/external/fsck_msdos" path="external/fsck_msdos" revision="e7d41e89d044ddcf13b2243851b20b902c56b92e"/>
+  <project groups="default" name="platform/external/gcc-demangle" path="external/gcc-demangle" revision="d6f70187df96e4f1968adbe9b52035dc474b7590"/>
+  <project groups="default" name="platform/external/genext2fs" path="external/genext2fs" revision="2e672fab1b8935ab6df5c2fc69386fe6b4ade873"/>
+  <project groups="default" name="platform/external/giflib" path="external/giflib" revision="b027dc00b076d1820924bdcefeb987bb5d2dbf35"/>
+  <project groups="default" name="platform/external/grub" path="external/grub" revision="5c3bee7defca81362e98cf8fbd6c20cf47dff00b"/>
+  <project groups="default" name="platform/external/gtest" path="external/gtest" revision="344e5f3db17615cc853073a02968a603efd39109"/>
+  <project groups="default" name="platform/external/harfbuzz" path="external/harfbuzz" revision="6842c622d8b68251f7d696d22bfa44a16c0bef46"/>
+  <project groups="default" name="platform/external/hyphenation" path="external/hyphenation" revision="bfa84834dfeb7fe8d058c2e7e07b5981451ddf82"/>
+  <project groups="default" name="platform/external/icu4c" path="external/icu4c" revision="7c2b59472f5086b12884891153b07ab11726fb99"/>
+  <project groups="default" name="platform/external/iproute2" path="external/iproute2" revision="401c8fa0f340b3eabf49b7f91f17aebc08f7297b"/>
+  <project groups="default" name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="f24812ba17f2e7cc7fafdffaa21c6e54195f26c9"/>
+  <project groups="default" name="platform/external/iptables" path="external/iptables" revision="74816fd3cbfbc0f3a1b8086c6f4941ea6b7251e5"/>
+  <project groups="default" name="platform/external/jhead" path="external/jhead" revision="dc4fa4c9d4d0246b900c587cbeb6dabbbe813199"/>
+  <project groups="default" name="platform/external/jpeg" path="external/jpeg" revision="484a51b6c9952d2ee158141554bb488973e2df67"/>
+  <project groups="default" name="platform/external/kernel-headers" path="external/kernel-headers" revision="e589264802a3d9dc1a018214cecf01126e84cdbb"/>
+  <project groups="default" name="platform/external/kissfft" path="external/kissfft" revision="fab741e82fa1664d7b8b46b8061dd3f2f4dbf6c5"/>
+  <project groups="default" name="platform/external/libaio" path="external/libaio" revision="cb23e6886e80b325e873fce9ca8d3f90167272d6"/>
+  <project groups="default" name="platform/external/libcap-ng" path="external/libcap-ng" revision="1d1011a3c5049a7f9eef99d22f3704e4367579cc"/>
+  <project groups="default" name="platform/external/libffi" path="external/libffi" revision="bcb9a592a47ec641d7cec89e10fcf556132713aa"/>
+  <project groups="default" name="platform/external/libgsm" path="external/libgsm" revision="43b81e9497e8e467b95062f3effd6c7613c1d676"/>
+  <project groups="default" name="platform/external/liblzf" path="external/liblzf" revision="6946aa575b0949d045722794850896099d937cbb"/>
+  <project groups="default" name="platform/external/libmtp" path="external/libmtp" revision="afc55a0d0657e4e12b17ea4bac5472c0f17d338a"/>
+  <project groups="default" name="platform/external/libnfc-nci" path="external/libnfc-nci" revision="12d748268e0ca7b4ceaf73a32add4c05999ba98e"/>
+  <project groups="default" name="platform/external/libnfc-nxp" path="external/libnfc-nxp" revision="42e3f836e9cacddbc732efc12d13e2f045aa13c5"/>
+  <project groups="default" name="platform/external/libnl-headers" path="external/libnl-headers" revision="6ccf7349d61f73ac26a0675d735d903ab919c658"/>
+  <project groups="default" name="platform/external/libogg" path="external/libogg" revision="ec0b24fb1468abe37be4164a6feb16568e036bde"/>
+  <project groups="default" name="platform/external/libpcap" path="external/libpcap" revision="3a7bce5dda6a8db92c9248846d0255e68c3a5b2a"/>
+  <project groups="default" name="platform/external/libpng" path="external/libpng" revision="9b4062cf510a301b16714bb92f1c09f036b91e0a"/>
+  <project groups="default" name="platform/external/libppp" path="external/libppp" revision="706e567fc5ff6b79738a5f470e5aa7b2cae76459"/>
+  <project groups="default" name="platform/external/libselinux" path="external/libselinux" revision="895b446e8b4844f2da7354e74d5d96cc7f4418f3"/>
+  <project groups="default" name="platform/external/libsepol" path="external/libsepol" revision="6617731185f5d7c899b376d1bfa2dea11eb494a0"/>
+  <project groups="default" name="platform/external/libusb" path="external/libusb" revision="2801917fe150393d4f4a354165fe89550ae22613"/>
+  <project groups="default" name="platform/external/libusb-compat" path="external/libusb-compat" revision="94867ba54eb7faa8efca81cf2214d00bb9143d27"/>
+  <project groups="default" name="platform/external/libvorbis" path="external/libvorbis" revision="de559619fd4dd0d2d9608436696fd44bdf74eba8"/>
+  <project groups="default" name="platform/external/libvpx" path="external/libvpx" revision="b9c4e676b7be3cf3a9e45e06d71bf0ca92344a5b"/>
+  <project groups="default" name="platform/external/libxml2" path="external/libxml2" revision="357a42d9ed7e95e6d25f07105e3ef85083ec8074"/>
+  <project groups="default" name="platform/external/libxslt" path="external/libxslt" revision="98f5140c33273d3bd67ca03566f8417406001016"/>
+  <project groups="default" name="platform/external/libyuv" path="external/libyuv" revision="a88a10a6ed9f9801852929bac34bdf10510116f4"/>
+  <project groups="default" name="platform/external/linux-tools-perf" path="external/linux-tools-perf" revision="48630d72aea6bab5223eb2538c34d87c1500d7f6"/>
+  <project groups="default" name="platform/external/llvm" path="external/llvm" revision="1b2f781362bb047e0c709e9c3a23d1147370356f"/>
+  <project groups="default" name="platform/external/lohit-fonts" path="external/lohit-fonts" revision="70d479d3e325aecf0fb294b67f26ae08b3a50481"/>
+  <project groups="default" name="platform/external/markdown" path="external/markdown" revision="6f2e3554ae38cc90518d32e02cb57d05988270a6"/>
+  <project groups="default" name="platform/external/mdnsresponder" path="external/mdnsresponder" revision="8d61c6ee30ea24755dfd111fb497c0533c0ff461"/>
+  <project groups="default" name="platform/external/mksh" path="external/mksh" revision="93bd42c789325fdd5f8c9ba8f000abd65281f241"/>
+  <project groups="default" name="platform/external/mobicore" path="external/mobicore" revision="719fefc43a29b3998b3f087af768824901820206"/>
+  <project groups="default" name="platform/external/mtpd" path="external/mtpd" revision="ccbf67d1286770e6cbfd2de9d2c7c2e14836dd30"/>
+  <project groups="default" name="platform/external/naver-fonts" path="external/naver-fonts" revision="9238a39d60763f81b98d96f02b087d52b9d4fd52"/>
+  <project groups="default" name="platform/external/netcat" path="external/netcat" revision="e4e83f8147f92141cd02cc46cccca088c527ea2a"/>
+  <project groups="default" name="platform/external/netperf" path="external/netperf" revision="58ecd3b7c76263900e38921360e334a416aec362"/>
+  <project groups="default" name="platform/external/neven" path="external/neven" revision="fcb93b178d5b59a0a229d9d7a087fb36853e10b1"/>
+  <project groups="default" name="platform/external/opencv" path="external/opencv" revision="1691b57dbad9cfc15b9a8b72f8b376733b934ffe"/>
+  <project groups="default" name="platform/external/openfst" path="external/openfst" revision="f4c12fce1ee58e670f9c3fce46c40296ba9ee8a2"/>
+  <project groups="default" name="platform/external/openssh" path="external/openssh" revision="2e12148014504c51b8e28b2d206f904057ffe690"/>
+  <project groups="default" name="platform/external/openssl" path="external/openssl" revision="ba352abc91bee1349bbdcbababd38e954e2020c7"/>
+  <project groups="default" name="platform/external/oprofile" path="external/oprofile" revision="18536b6cb0c5e4f316b98ba471d138cb45b490b7"/>
+  <project groups="default" name="platform/external/ping" path="external/ping" revision="351fb705d76aa9b12ea69b1ffe456c23029f1064"/>
+  <project groups="default" name="platform/external/ping6" path="external/ping6" revision="d758e6092bbd733f608ea49ffdd00f0d421b4fc7"/>
+  <project groups="default" name="platform/external/powertop" path="external/powertop" revision="bc5c35e935e1b8113e8cf0fdb0aa4b4d9ea94763"/>
+  <project groups="default" name="platform/external/ppp" path="external/ppp" revision="e644c9d23cce70bf4e7db4a63325e5dc8ba87363"/>
+  <project groups="default" name="platform/external/protobuf" path="external/protobuf" revision="884c5ed9bce617dc8e75436d4f53d705c12468aa"/>
+  <project groups="default" name="platform/external/protobuf-c" path="external/protobuf-c" revision="f5acb16b4e8b57f5be4083960023982443bddbca"/>
+  <project groups="default" name="platform/external/qemu-pc-bios" path="external/qemu-pc-bios" revision="20349dae98d7de09a7e390d4a706c64f1db6edc2"/>
+  <project groups="default" name="platform/external/qrngd" path="external/qrngd" revision="1540edc3ba0d06785d757321d655ffdf90816bca"/>
+  <project groups="default" name="platform/external/regex-re2" path="external/regex-re2" revision="2ee91b4af4353b9e6a9d591c32fedfc58fd4ef35"/>
+  <project groups="default" name="platform/external/safe-iop" path="external/safe-iop" revision="aa0725fb1da35e47676b6da30009322eb5ed59be"/>
+  <project groups="default" name="platform/external/sepolicy" path="external/sepolicy" revision="acbded32b2663b65605878f32d45894f4948a388"/>
+  <project groups="default" name="platform/external/skia" path="external/skia" revision="534bb815322b9ed8dbd9a1c7eb2868fd7f646f01"/>
+  <project groups="default" name="platform/external/sonivox" path="external/sonivox" revision="4a213147dbe60416aa26ebdba0f3c631b2e2b013"/>
+  <project groups="default" name="platform/external/speex" path="external/speex" revision="fb7db5853ffb841a4d32fea8b5c3a43e6b875cae"/>
+  <project groups="default" name="platform/external/sqlite" path="external/sqlite" revision="e75f59a4e57f583660920d50f5298b573c3e7be2"/>
+  <project groups="default" name="platform/external/srec" path="external/srec" revision="0ea9fd9cea14dd70b809238e07d85f383f1fa747"/>
+  <project groups="default" name="platform/external/srtp" path="external/srtp" revision="b7cb8944d4dfcdbfa53d25519b6e8d4b04b856f4"/>
+  <project groups="default" name="platform/external/stlport" path="external/stlport" revision="30865cb901602ed078ff2ed534529d847b3b54b5"/>
+  <project groups="default" name="platform/external/strace" path="external/strace" revision="7d2d23fd9b87c3a1fc61a51e6cb62923d952fb79"/>
+  <project groups="default" name="platform/external/stressapptest" path="external/stressapptest" revision="0956427aa995561acb4471764158ae057a36dad5"/>
+  <project groups="default" name="platform/external/tcpdump" path="external/tcpdump" revision="51bc0c5b05e4ac9aedee8bd1420ef53998a11f48"/>
+  <project groups="default" name="platform/external/tinyalsa" path="external/tinyalsa" revision="ff2e54293f32b5bb5ff75b4cb25babb00f429ca4"/>
+  <project groups="default" name="platform/external/tinyxml" path="external/tinyxml" revision="e67550c8eef7de69ce1d7ad7e997656c0fd6c6bb"/>
+  <project groups="default" name="platform/external/tinyxml2" path="external/tinyxml2" revision="c74b546f5af36968ffa56d7fd4529f4273b96f48"/>
+  <project groups="default" name="platform/external/tremolo" path="external/tremolo" revision="3eec17965b3e2974e120e864b351a916f59835ba"/>
+  <project groups="default" name="platform/external/v8" path="external/v8" revision="8d78d38139cc7f1b4a5cc3b74e39dad4227f0cc9"/>
+  <project groups="default" name="platform/external/valgrind" path="external/valgrind" revision="0d909f54d46a5c4e5143a0469f77472673fdd06a"/>
+  <project groups="default" name="platform/external/webp" path="external/webp" revision="dcc9698da74bbf972906f8abb8cd9f78c857843b"/>
+  <project groups="default" name="platform/external/webrtc" path="external/webrtc" revision="cf20dbf9d2547baa8a0fb631f282109e7a58a6cc"/>
+  <project groups="default" name="platform/external/wpa_supplicant_6" path="external/wpa_supplicant_6" revision="e9780b9481b88ef37fdac2a0171e50cab6112781"/>
+  <project groups="default" name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="685e408820b6047909d97a91f7573e3c5abbfc87"/>
+  <project groups="default" name="platform/external/yaffs2" path="external/yaffs2" revision="9c64cac7542658f85417d651d8b9422e054d5e72"/>
+  <project groups="default" name="platform/external/zlib" path="external/zlib" revision="d3476f1f35cbbc09d2610c861f5be4393d449a77"/>
+  <project groups="default" name="platform/frameworks/av" path="frameworks/av" revision="c9a577ae482085cebb1503e2594f95a62940b391"/>
+  <project groups="default" name="platform/frameworks/base" path="frameworks/base" revision="44fb43e1b4fbb824ba44426f119f787cffb2f04e"/>
+  <project groups="default" name="platform/frameworks/native" path="frameworks/native" revision="45bad2830b286d3560ab6095bd77fbbf916cc315"/>
+  <project groups="default" name="platform/frameworks/opt/emoji" path="frameworks/opt/emoji" revision="0805d75d3c4319f54fb3c854be2f7baab561cf1b"/>
+  <project groups="default" name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="4a4c728965b10df683d37b4b7ac27211e02006ad"/>
+  <project groups="default" name="platform/gdk" path="gdk" revision="4cad58ef8e2fc58576b4f3b00a19fa508d139536"/>
+  <project groups="default" name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan" revision="db0d66c1b46754895c5cf744f418b365a3eb89cd"/>
+  <project groups="default" name="platform/hardware/invensense" path="hardware/invensense" revision="33ce91b37062fa63af192f5643de93f3beebe854"/>
+  <project groups="default" name="platform/hardware/libhardware" path="hardware/libhardware" revision="400a82a21932d29441e3da7b7b93ae111b5e5e03"/>
+  <project groups="default" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="1e68b49d8bb95910765cd6ab220ae8314f92e80a"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="61a7088a9b3567765d3ddd5736c8dbcece17aca4"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="783ea810a5ec4ab61d80f7ce10fae6499c3761d3"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="f469c12c1dbd5ff9dfc1c02f3c5ab80578dbd0d1"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="0ef6abb32ae15027e3ec7f07cd18195a272dcdd5"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="501fcde61849126f5b4956680ccb3f4260b104f4"/>
+  <project groups="default" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="901ddc1bd387fd296fbeacb73facc33585e7d903"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="df09ce55d7561d0689d25c56d000544196a8c7d5"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/msm8960" path="hardware/qcom/msm8960" revision="1527a7f45985b21726df5dbcce10af54646d62c0"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" revision="f582db447aaedc5f497d24f3d23d44dde023cfd0"/>
+  <project groups="qcom_wlan,default" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="9e92bcb5d42db396bd12562de9c974b2bf66e980"/>
+  <project groups="default" name="platform/hardware/ril" path="hardware/ril" revision="8f4796d98c28701a63b7dbbf7e89f7417345885c"/>
+  <project groups="default" name="platform/hardware/samsung_slsi/exynos5" path="hardware/samsung_slsi/exynos5" revision="e8ad1203f3069819125e101aef6751228ff9ae99"/>
+  <project groups="default" name="platform/hardware/ti/omap3" path="hardware/ti/omap3" revision="efbb6b2de5fa16ef72bbf02526e3c0a7a6d63a4f"/>
+  <project groups="default" name="platform/hardware/ti/omap4xxx" path="hardware/ti/omap4xxx" revision="707e301de8b52780a7f0e88e6f25ac919c23671f"/>
+  <project groups="default" name="platform/hardware/ti/wlan" path="hardware/ti/wlan" revision="cece92a8acff0a81868e6cac326bcf61e54c5aec"/>
+  <project groups="default" name="platform/hardware/ti/wpan" path="hardware/ti/wpan" revision="d2f7b475c484e56b6d9fa38855cc128604f9a3a2"/>
+  <project groups="default" name="platform/libcore" path="libcore" revision="386aca9e3d12b5c16db3b3e209a255e04927ede0"/>
+  <project groups="default" name="platform/libnativehelper" path="libnativehelper" revision="73d3c2e3ed100f1d0ccc08a9675844bf8a0848fa"/>
+  <project groups="default" name="platform/ndk" path="ndk" revision="6d6807c76da40a9c9a27ea235c7518557c95219c"/>
+  <project groups="default" name="platform/prebuilts/clang/darwin-x86/3.1" path="prebuilts/clang/darwin-x86/3.1" revision="426233405bef3c7c825095ab14256c3773894b9b"/>
+  <project groups="default" name="platform/prebuilts/clang/darwin-x86/3.2" path="prebuilts/clang/darwin-x86/3.2" revision="af856d77b3cbb1f6afccdc531bee991403c28907"/>
+  <project groups="default" name="platform/prebuilts/clang/linux-x86/3.1" path="prebuilts/clang/linux-x86/3.1" revision="e95b4ce22c825da44d14299e1190ea39a5260bde"/>
+  <project groups="default" name="platform/prebuilts/clang/linux-x86/3.2" path="prebuilts/clang/linux-x86/3.2" revision="471afab478649078ad7c75ec6b252481a59e19b8"/>
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" revision="21b2cba584638ed5ffad8e3fd3e6808bfa299cf0"/>
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" revision="cd1d69ca633c901c064b7f934735493025fa20d9"/>
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" revision="837cdd9b3ac7231daaf961056c7505843130f667"/>
+  <project groups="default" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" revision="042d6130038c95be86fcea5dddda2db07bd5aa27"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="d73a051b1fd1d98f5c2463354fb67898f0090bdb"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" revision="1aa5822560cdc5cf155e2a8300c73441cb519ec4"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" revision="10191e2f442c5409cb70783508658d474612a97e"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="9e754ea754eac37d1cd20182cc5d37df85239b0d"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="4b88bc4aafd69d02e14e2aa99046db67666f7f52"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" revision="90fc0bd53f2d07ef2383bfad53671f76801c740e"/>
+  <project groups="default" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" revision="b9ebba077c2f62e930b16240d7f3ad61f1ad1dfc"/>
+  <project groups="default" name="platform/prebuilts/misc" path="prebuilts/misc" revision="c9277766a02274e3595e9818a61e5717097af1a4"/>
+  <project groups="default" name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="9e04eb2e30bc8d5707c57c2787111b3a5b365fa9"/>
+  <project groups="default" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" revision="f1b132a1caaec8a89785f83f0201d07e72cce4cc"/>
+  <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="8321c6be2f5b83da848dc96d47cf09cd82a90edb"/>
+  <project groups="default" name="platform/prebuilts/tools" path="prebuilts/tools" revision="bbf7c256c4f5261c20599ec2f0d4f9316cb226bd"/>
+  <project groups="default" name="platform/system/bluetooth" path="system/bluetooth" revision="882a4d06e45c1d2349785162ee279bce9ed455ea"/>
+  <project groups="default" name="platform/system/core" path="system/core" revision="6eee81494f1f860499ca4fe572246c03803068e1"/>
+  <project groups="default" name="platform/system/extras" path="system/extras" revision="646a5806b2f7579ac2d368da0719d1239921bc4b"/>
+  <project groups="default" name="platform/system/media" path="system/media" revision="04542ce6630cc71240d968352ecb0c19fa934dbe"/>
+  <project groups="default" name="platform/system/netd" path="system/netd" revision="69024510ee875dfe314643feb843b990422fa971"/>
+  <project groups="default" name="platform/system/qcom" path="system/qcom" revision="62ff31e514092f248d7b70fa5e5c995fe310e719"/>
+  <project groups="default" name="platform/system/security" path="system/security" revision="cd8df62842b81c93022feabfacda8efd257e1754"/>
+  <project groups="default" name="platform/system/vold" path="system/vold" revision="73a321fe64260b7c97f373351e019e817a656330"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests" revision="36dfb123e28f0878c57a5995a361872ad7b11c5d"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/stm-log" path="vendor/qcom/opensource/stm-log" revision="f802c8b4d21bad8d3c665292f683cef9249594f4"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/testframework" path="vendor/qcom/opensource/testframework" revision="569b72b21e972eed6a11bfabcb748ef256fcb5cf"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="042f5604450f8a7f1dd4adeafc9f43cd47598da3"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/v8" path="vendor/qcom/opensource/v8" revision="ed6baff3b8971fe968a30c0c7dc631be1f31fd5c"/>
+  <project groups="default" name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="171681a2d9be186c3b28545db47666f5f3ac9ba4"/>
+  <project groups="default" name="platform/vendor/qcom/copper" path="device/qcom/msm8974" revision="a8c0deefdf43310f1e43e859ff19181ca42b4006"/>
+  <project groups="default" name="platform/vendor/qcom/mpq8064" path="device/qcom/mpq8064" revision="905cd072ec31fb26ef0d278e116c7025f573ab85"/>
+  <project groups="default" name="platform/vendor/qcom/msm7627a" path="device/qcom/msm7627a" revision="e9a85449d48b90ac6bf94ad114091d47a6677dd1"/>
+  <project groups="default" name="platform/vendor/qcom/msm7630_surf" path="device/qcom/msm7630_surf" revision="5c7a5b4b00dfd296fba61b23dccc1706edf8adaa"/>
+  <project groups="default" name="platform/vendor/qcom/msm8226" path="device/qcom/msm8226" revision="5e5a0fc7a98a294b48075fa0dbe71928cc7db5ba"/>
+  <project groups="default" name="platform/vendor/qcom/msm8610" path="device/qcom/msm8610" revision="23116cad4e809e4b4f04bb1a94f254ac6f282128"/>
+  <project groups="default" name="platform/vendor/qcom/msm8660_surf" path="device/qcom/msm8660_surf" revision="d9fa9d78a402f091c0df43995ccd65b6609378e1"/>
+  <project groups="default" name="platform/vendor/qcom/msm8960" path="device/qcom/msm8960" revision="ae8d000d801b50c610a0f954e077de906a39871f"/>
+  <project groups="default" name="platform/vendor/qcom/zinc" path="device/qcom/apq8084" revision="46683ee2cb8dfb76e4c4b21996fd3819ba6c641f"/>
+  <project groups="default" name="releases/l10n/cs/gaia" path="gaia-l10n/cs" remote="caf_lf" revision="8b20d8abc027a0b52c117796d7c118478047d9d8"/>
+  <project groups="default" name="releases/l10n/cs/gecko" path="gecko-l10n/cs" remote="caf_lf" revision="bab359f0fee36ab563bf754152fa11f868dbdc2f"/>
+  <project groups="default" name="releases/l10n/de/gaia" path="gaia-l10n/de" remote="caf_lf" revision="9914044a35b77874f632fba3262cdcbfc3d26ae2"/>
+  <project groups="default" name="releases/l10n/de/gecko" path="gecko-l10n/de" remote="caf_lf" revision="b75969b3b8254cff533bfa5beeb834741ebbefbf"/>
+  <project groups="default" name="releases/l10n/en-US/gaia" path="gaia-l10n/en-US" remote="caf_lf" revision="0f92701eab8f9a1f2c42e6bc4ad773880a9f648b"/>
+  <project groups="default" name="releases/l10n/es-ES/gecko" path="gecko-l10n/es-ES" remote="caf_lf" revision="3917b141f33e7d0201975ca2b27730ac15e8ff0f"/>
+  <project groups="default" name="releases/l10n/es/gaia" path="gaia-l10n/es" remote="caf_lf" revision="2e15ebe8842557906c9d92c9588973d12cd21ad5"/>
+  <project groups="default" name="releases/l10n/hr/gaia" path="gaia-l10n/hr" remote="caf_lf" revision="c43a44fe0b9a7d7c5b4c08ee3a621c140b0532cb"/>
+  <project groups="default" name="releases/l10n/hr/gecko" path="gecko-l10n/hr" remote="caf_lf" revision="fbe098f770fae667cd67a70bbaa673ea9448d9f5"/>
+  <project groups="default" name="releases/l10n/hu/gaia" path="gaia-l10n/hu" remote="caf_lf" revision="6217c7fe6ce07aa0c0276401af335659e2dd8b0c"/>
+  <project groups="default" name="releases/l10n/hu/gecko" path="gecko-l10n/hu" remote="caf_lf" revision="8b03c323bbc663ca3337d1d9bee15c72085beca2"/>
+  <project groups="default" name="releases/l10n/pl/gaia" path="gaia-l10n/pl" remote="caf_lf" revision="8e5e4b33744e7a0aaee3382b0be4a6530f6b7125"/>
+  <project groups="default" name="releases/l10n/pl/gecko" path="gecko-l10n/pl" remote="caf_lf" revision="cc07f40bf72b77e4da8544a5c28895767cf67f9e"/>
+  <project groups="default" name="releases/l10n/pt-BR/gaia" path="gaia-l10n/pt-BR" remote="caf_lf" revision="fec862cbefb289fa8fee583d1bfee9d438012956"/>
+  <project groups="default" name="releases/l10n/pt-BR/gecko" path="gecko-l10n/pt-BR" remote="caf_lf" revision="027814cf2b35997402563adad33764ec55b37c7c"/>
+  <project groups="default" name="releases/l10n/ro/gaia" path="gaia-l10n/ro" remote="caf_lf" revision="83f84257a5b4769efea3a2656297c0f3d3454c67"/>
+  <project groups="default" name="releases/l10n/ro/gecko" path="gecko-l10n/ro" remote="caf_lf" revision="7e126bbfe9aea36fc981af3cc77238cb40434c06"/>
+  <project groups="default" name="releases/l10n/sr-Cyrl/gaia" path="gaia-l10n/sr-Cyrl" remote="caf_lf" revision="c0391f74a6dbe90f1c17430a3443fdca8a8967de"/>
+  <project groups="default" name="releases/l10n/sr/gecko" path="gecko-l10n/sr" remote="caf_lf" revision="1d85ceea98b0fb98f6f7b6a841a3ba45e7b51e77"/>
+</manifest>
