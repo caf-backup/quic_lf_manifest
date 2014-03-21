@@ -7,12 +7,12 @@
   <default remote="caf" revision="LNX.LA.3.5.2"/>
   <project name="quic/lf/b2g/build" path="device/qcom/b2g_common" revision="ccd8b858242c099cb4bc725daf22896ab4a4b325" upstream="refs/heads/v1.4"/>
   <project name="quic/lf/b2g/external/jsmin" path="external/jsmin" revision="cec896f0affaa0226c02605ad28d42df1bc0e393"/>
-  <project name="quic/lf/b2g/mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" remote="caf_lf" revision="0160994ef6a5a1af2e0cf276727740a3ff12fd95" upstream="refs/heads/mozilla/master"/>
-  <project name="quic/lf/b2g/mozilla-b2g/gonk-misc" path="gonk-misc" remote="caf_lf" revision="266bca6e60dad43e395f38b66edabe8bdc882334"/>
-  <project name="quic/lf/b2g/mozilla-b2g/librecovery" path="librecovery" remote="caf_lf" revision="1f6a1fe07f81c5bc5e1d079c9b60f7f78ca2bf4f"/>
-  <project name="quic/lf/b2g/mozilla-b2g/moztt" path="external/moztt" remote="caf_lf" revision="cb16958e41105d7c551d9941f522db97b8312538"/>
-  <project name="quic/lf/b2g/mozilla/gaia" path="gaia" remote="caf_lf" revision="53edbf08b0a750c31e8c6b2c20f2b1315b1412d1"/>
-  <project name="quic/lf/b2g/mozilla/gecko" path="gecko" remote="caf_lf" revision="979daba51a33e90b5ba88be7ef3940fa55d3297b"/>
+  <project name="b2g/mozilla-b2g/B2G" path="device/qcom/b2g_common/mozilla-b2g" remote="caf_lf" revision="0160994ef6a5a1af2e0cf276727740a3ff12fd95" upstream="refs/heads/mozilla/master"/>
+  <project name="b2g/mozilla-b2g/gonk-misc" path="gonk-misc" remote="caf_lf" revision="266bca6e60dad43e395f38b66edabe8bdc882334"/>
+  <project name="b2g/mozilla-b2g/librecovery" path="librecovery" remote="caf_lf" revision="1f6a1fe07f81c5bc5e1d079c9b60f7f78ca2bf4f"/>
+  <project name="b2g/mozilla-b2g/moztt" path="external/moztt" remote="caf_lf" revision="cb16958e41105d7c551d9941f522db97b8312538"/>
+  <project name="b2g/mozilla/gaia" path="gaia" remote="caf_lf" revision="53edbf08b0a750c31e8c6b2c20f2b1315b1412d1"/>
+  <project name="b2g/mozilla/gecko" path="gecko" remote="caf_lf" revision="979daba51a33e90b5ba88be7ef3940fa55d3297b"/>
   <project name="device/common" revision="96d4d2006c4fcb2f19a3fa47ab10cb409faa017b"/>
   <project groups="pdk" name="device/generic/armv7-a-neon" revision="1bb28abbc215f45220620af5cd60a8ac1be93722"/>
   <project groups="pdk" name="device/generic/common" revision="11c092a6cbfcf6207f07a9a8e3398e747e7f5461"/>
