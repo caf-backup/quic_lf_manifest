@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <x-mozbuild buildid="20140331000202" update_channel="nightly" version="30.0a2"/>
-  <x-mozbuild buildid="20140331000202" update_channel="nightly" version="30.0a2"/>
   <remote fetch="git://codeaurora.org/quic/lf" name="caf_lf" review="null"/>
   <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
   <default remote="caf" revision="LNX.LA.3.5.2"/>
