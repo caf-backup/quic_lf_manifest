@@ -12,8 +12,8 @@
   <project name="quic/lf/b2g/mozilla-b2g/moztt" path="external/moztt" revision="fe893bb760a3bb64375f62fdf4762a58c59df9ef"/>
   <project name="quic/lf/b2g/mozilla/gaia" path="gaia" revision="f5b3d1b6cfa3e702033f613915ae637cb735cbfb"/>
   <project name="quic/lf/b2g/mozilla/gecko" path="gecko" revision="bb6c4d3fc51281f1a2ee0ff471221dbc1d0d1035"/>
-  <project name="b2g/platform_system_bluetoothd" path="system/bluetoothd" remote="caf_lf" revision="5e7844e1884e06299543703ce43698c650f04f93" upstream="refs/heads/mozilla/v2.2"/>
-  <project name="b2g/platform_system_libfdio" path="system/libfdio" remote="caf_lf" revision="fe95bc6f83af5c18a73aa86c96e7fa7f79b91477" upstream="refs/heads/mozilla/v2.2"/>
+  <project name="quic/lf/b2g/platform_system_bluetoothd" path="system/bluetoothd" remote="caf_lf" revision="5e7844e1884e06299543703ce43698c650f04f93" upstream="refs/heads/mozilla/v2.2"/>
+  <project name="quic/lf/b2g/platform_system_libfdio" path="system/libfdio" remote="caf_lf" revision="fe95bc6f83af5c18a73aa86c96e7fa7f79b91477" upstream="refs/heads/mozilla/v2.2"/>
   <project groups="pdk-cw-fs" name="device/common" revision="b143878e855aff96d089c26e99f02879062bdc1b"/>
   <project groups="pdk" name="device/generic/goldfish" revision="82a4dc7a20c827032fcc5a5092b81f708c87908b"/>
   <project name="device/qcom/common" revision="889656ada543100da4b6bcf7ef7e2af31eaae7bc" upstream="LF.BR.1.2.1">
