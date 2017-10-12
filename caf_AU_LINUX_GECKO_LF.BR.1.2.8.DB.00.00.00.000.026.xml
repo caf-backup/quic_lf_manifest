@@ -14,7 +14,7 @@
     <annotation name="tracking" value="LA.BR.1.2.6"/>
   </project>
   <project name="device/qcom/sepolicy" revision="6849a33d9cc1c419e390b469368996cb38992c75" upstream="refs/heads/LA.BR.1.2.8"/>
-  <project groups="pdk" name="external/libnfc-nci" revision="d33489bcf3f75b7b198eeaa134e5ee45aec8def0" upstream="refs/tags/NFC_NCIx_KRC0.2.5.0"/>
+  <project groups="pdk" name="quic/la/external/libnfc-nci" path="external/libnfc-nci" revision="d33489bcf3f75b7b198eeaa134e5ee45aec8def0" upstream="refs/tags/NFC_NCIx_KRC0.2.5.0"/>
   <project name="quic/filesystems/fs/external/mtd-utils" path="external/mtd-utils" revision="135653aa32de49a7fc0dcacf93237273eac4cc4d" upstream="refs/heads/LF.BR.1.2.8"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="f3b6d9693255882caa208f4541bf649ad3be5555" upstream="refs/heads/LF.BR.1.2.8.db">
     <annotation name="tracking" value="LA.BR.1.2.6"/>
