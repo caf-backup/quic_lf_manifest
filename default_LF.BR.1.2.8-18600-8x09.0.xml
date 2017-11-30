@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="LF.BR.1.2.8"/>
+  <project name="quic/lf/b2g/build" path="device/qcom/b2g_common" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="quic/lf/b2g/external/jsmin" path="external/jsmin" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="device/common" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="device/qcom/common" revision="refs/heads/LF.BR.1.2.8">
+    <copyfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
+    <copyfile dest="build.sh" src="build.sh"/>
+    <annotation name="tracking" value="LA.BR.1.2.6"/>
+  </project>
+  <project name="device/qcom/sepolicy" revision="refs/heads/LA.BR.1.2.8"/>
+  <project groups="pdk" name="external/libnfc-nci" revision="refs/heads/NFC_NCIx_KRC0.2.7.0"/>
+  <project name="quic/filesystems/fs/external/mtd-utils" path="external/mtd-utils" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="kernel/lk" path="bootable/bootloader/lk" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.2.6"/>
+  </project>
+  <project name="kernel/msm-3.10" path="kernel" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.2.6"/>
+  </project>
+  <project groups="pdk" name="platform/abi/cpp" path="abi/cpp" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/bionic" path="bionic" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project name="platform/bootable/recovery" path="bootable/recovery" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project name="platform/build" path="build" revision="refs/heads/LF.BR.1.2.8">
+    <copyfile dest="Makefile" src="core/root.mk"/>
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project groups="pdk" name="platform/external/aac" path="external/aac" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/android-clat" path="external/android-clat" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/bison" path="external/bison" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/blktrace" path="external/blktrace" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/boringssl" path="external/boringssl" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/bsdiff" path="external/bsdiff" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/bzip2" path="external/bzip2" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/cblas" path="external/cblas" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/clang" path="external/clang" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/external/cmockery" path="external/cmockery" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/compiler-rt" path="external/compiler-rt" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/conscrypt" path="external/conscrypt" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/external/crcalc" path="external/crcalc" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/external/curl" path="external/curl" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/dhcpcd" path="external/dhcpcd" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/dnsmasq" path="external/dnsmasq" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/e2fsprogs" path="external/e2fsprogs" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/external/ebtables" path="external/ebtables" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/eigen" path="external/eigen" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/elfutils" path="external/elfutils" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/embunit" path="external/embunit" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/esd" path="external/esd" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/expat" path="external/expat" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/f2fs-tools" path="external/f2fs-tools" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/fdlibm" path="external/fdlibm" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/flac" path="external/flac" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/freetype" path="external/freetype" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,qcom_msm8x26" name="platform/external/giflib" path="external/giflib" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/external/gptfdisk" path="external/gptfdisk" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/gtest" path="external/gtest" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs,qcom_msm8x26" name="platform/external/harfbuzz_ng" path="external/harfbuzz_ng" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/icu" path="external/icu" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/iproute2" path="external/iproute2" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/ipsec-tools" path="external/ipsec-tools" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/iptables" path="external/iptables" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/iputils" path="external/iputils" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/jemalloc" path="external/jemalloc" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/jhead" path="external/jhead" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/jpeg" path="external/jpeg" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/jsmn" path="external/jsmn" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/jsoncpp" path="external/jsoncpp" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libavc" path="external/libavc" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libcxx" path="external/libcxx" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libcxxabi" path="external/libcxxabi" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libdrm" path="external/libdrm" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libese-jcop-kit" path="external/libese-jcop-kit" revision="refs/heads/NFC_NCIx_KRC0.2.7.0"/>
+  <project groups="pdk" name="platform/external/libgsm" path="external/libgsm" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/liblzf" path="external/liblzf" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libnfc-mifare" path="external/libnfc-mifare" revision="refs/heads/NFC_NCIx_KRC0.2.7.0"/>
+  <project groups="pdk" name="platform/external/libnl" path="external/libnl" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libogg" path="external/libogg" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libopus" path="external/libopus" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,pdk-cw-fs" name="platform/external/libpcap" path="external/libpcap" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libpng" path="external/libpng" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libselinux" path="external/libselinux" revision="refs/heads/LA.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libunwind" path="external/libunwind" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/libvpx" path="external/libvpx" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/libxml2" path="external/libxml2" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/linux-tools-perf" path="external/linux-tools-perf" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/external/lld" path="external/lld" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/lldb" path="external/lldb" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/llvm" path="external/llvm" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/lz4" path="external/lz4" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/lzma" path="external/lzma" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/external/lzo" path="external/lzo" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/marisa-trie" path="external/marisa-trie" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/markdown" path="external/markdown" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/mdnsresponder" path="external/mdnsresponder" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/mksh" path="external/mksh" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/nanopb-c" path="external/nanopb-c" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/netcat" path="external/netcat" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/pcre" path="external/pcre" revision="refs/heads/LA.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/protobuf" path="external/protobuf" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/radvd" path="external/radvd" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/safe-iop" path="external/safe-iop" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/scrypt" path="external/scrypt" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/external/selinux" path="external/selinux" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/sepolicy" path="external/sepolicy" revision="refs/heads/LA.BR.1.2.8"/>
+  <project groups="pdk,qcom_msm8x26" name="platform/external/sfntly" path="external/sfntly" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,qcom_msm8x26" name="platform/external/skia" path="external/skia" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/sonic" path="external/sonic" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/sonivox" path="external/sonivox" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/speex" path="external/speex" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/sqlite" path="external/sqlite" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/squashfs-tools" path="external/squashfs-tools" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/strace" path="external/strace" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/svox" path="external/svox" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,pdk-cw-fs" name="platform/external/tcpdump" path="external/tcpdump" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/tinyalsa" path="external/tinyalsa" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/tinycompress" path="external/tinycompress" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/tinyxml" path="external/tinyxml" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/tinyxml2" path="external/tinyxml2" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/toybox" path="external/toybox" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/tremolo" path="external/tremolo" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,qcom_msm8x26" name="platform/external/webp" path="external/webp" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/webrtc" path="external/webrtc" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project name="platform/external/yaffs2" path="external/yaffs2" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/external/zlib" path="external/zlib" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk-cw-fs" name="platform/external/zopfli" path="external/zopfli" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/frameworks/av" path="frameworks/av" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project name="platform/frameworks/base" path="frameworks/base" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.2.7_3"/>
+  </project>
+  <project groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/frameworks/native" path="frameworks/native" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project groups="pdk" name="platform/frameworks/rs" path="frameworks/rs" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project groups="pdk" name="platform/hardware/libhardware" path="hardware/libhardware" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/hardware/libhardware_legacy" path="hardware/libhardware_legacy" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/audio" path="hardware/qcom/audio" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="qcom" name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="qcom,qcom_display" name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/hardware/qcom/gps" path="hardware/qcom/gps" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.2.6"/>
+  </project>
+  <project groups="qcom" name="platform/hardware/qcom/keymaster" path="hardware/qcom/keymaster" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="qcom,default" name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/hardware/qcom/sensors" path="hardware/qcom/sensors" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.2.7"/>
+  </project>
+  <project groups="qcom_wlan" name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/hardware/ril" path="hardware/ril" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.2.7_3"/>
+  </project>
+  <project groups="pdk" name="platform/libnativehelper" path="libnativehelper" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/ndk" path="ndk" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,darwin" name="platform/prebuilts/clang/darwin-x86/host/3.6" path="prebuilts/clang/darwin-x86/host/3.6" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,linux" name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,darwin,arm" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,darwin" name="platform/prebuilts/gcc/darwin-x86/host/headers" path="prebuilts/gcc/darwin-x86/host/headers" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,darwin" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,linux,arm" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,linux" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/prebuilts/misc" path="prebuilts/misc" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/prebuilts/ndk" path="prebuilts/ndk" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="darwin,pdk,pdk-cw-fs" name="platform/prebuilts/python/darwin-x86/2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="linux,pdk,pdk-cw-fs" name="platform/prebuilts/python/linux-x86/2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/prebuilts/sdk" path="prebuilts/sdk" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/system/bt" path="system/bt" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project name="platform/system/core" path="system/core" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project name="platform/system/extras" path="system/extras" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/system/keymaster" path="system/keymaster" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/system/media" path="system/media" revision="refs/heads/LF.BR.1.2.8"/>
+  <project groups="pdk" name="platform/system/mmitest/nfc_test" path="system/mmitest/nfc_test" revision="refs/heads/NFC_NCIx_KRC0.2.7.0"/>
+  <project groups="pdk" name="platform/system/netd" path="system/netd" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/system/qcom" path="vendor/qcom/opensource/softap" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/system/security" path="system/security" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project name="platform/system/vold" path="system/vold" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.3.4"/>
+  </project>
+  <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/vendor/qcom-opensource/display-frameworks" path="vendor/qcom/opensource/display-frameworks" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/vendor/qcom-opensource/kernel/kernel-tests" path="vendor/qcom/opensource/kernel-tests" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/vendor/qcom-opensource/location" path="vendor/qcom/opensource/location" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.2.6"/>
+  </project>
+  <project name="platform/vendor/qcom-opensource/time-services" path="vendor/qcom/opensource/time-services" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/vendor/qcom/ferrum" path="device/qcom/msm8909" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.2.6"/>
+  </project>
+  <project name="platform/vendor/qcom/ferrum_256" path="device/qcom/msm8909_256" revision="refs/heads/LF.BR.1.2.8"/>
+  <project name="platform/vendor/qcom/ferrum_512" path="device/qcom/msm8909_512" revision="refs/heads/LF.BR.1.2.8">
+    <annotation name="tracking" value="LA.BR.1.2.6"/>
+  </project>
+</manifest>
